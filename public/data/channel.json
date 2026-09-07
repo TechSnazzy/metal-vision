@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": 1788774071614,
-  "sourceUpdatedAt": 1788774028000,
+  "updatedAt": 1788794072459,
+  "sourceUpdatedAt": 1788793885000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
     "observed": 341,
-    "matched": 1,
+    "matched": 2,
     "catalog": 14,
     "automaticMatching": false
   },
@@ -402,6 +402,19 @@
           "duration": 245,
           "kind": "Music video",
           "year": 1985,
+          "durationEstimated": true
+        },
+        {
+          "id": "57323",
+          "playedAt": 1788793457000,
+          "artist": "Warrant",
+          "title": "Down Boys",
+          "album": "Dirty Rotten Filthy Stinking Rich",
+          "key": "warrant|down boys",
+          "videoId": "0RHENr6Xe70",
+          "duration": 247,
+          "kind": "Music video",
+          "year": 1989,
           "durationEstimated": true
         }
       ]
