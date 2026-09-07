@@ -1,0 +1,55 @@
+name: Update channel and publish
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '13,43 * * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: metal-vision-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test channel logic
+        run: npm test
+      - name: Collect station history
+        id: collect
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python3 scripts/collect.py
+      - name: Preserve guide on station outage
+        if: steps.collect.outcome == 'failure'
+        run: echo '::warning::Station update failed; publishing the last working rotation.'
+      - name: Save programming
+        run: |
+          git config user.name 'metal-vision[bot]'
+          git config user.email 'metal-vision@users.noreply.github.com'
+          git add data public/data
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh station programming [skip ci]'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4
+        id: deployment

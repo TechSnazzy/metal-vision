@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11100f">
+  <meta name="description" content="Metal Vision. All night. All loud. A nonstop music-video channel built from Hair Band Radio’s running order.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <title>Metal Vision — All night. All loud.</title>
+</head>
+<body>
+  <a class="skip" href="#watch">Skip to video</a>
+  <div class="page">
+    <header class="masthead">
+      <a class="brand" href="./" aria-label="Metal Vision home"><span class="brand-metal">METAL</span><span class="brand-vision">VISION<span class="brand-star" aria-hidden="true">★</span></span></a>
+      <div class="masthead-right"><span class="eyebrow">STRAIGHT FROM THE STRIP</span><p>ALL NIGHT.<br>ALL LOUD.</p><span class="channel-tag">CH. 01 <span aria-hidden="true">↯</span> EST. 2026</span></div>
+    </header>
+    <div class="station-bar"><span><i class="led"></i> THE CHANNEL NEVER CLOCKS OUT</span><time id="clock"></time></div>
+    <main id="watch" class="layout">
+      <section class="stage" aria-label="Video channel">
+        <div class="screen-housing">
+          <div class="screws" aria-hidden="true"><i></i><i></i></div>
+          <div class="screen" id="screen">
+            <div id="player"></div>
+            <div id="standby" class="standby">
+              <div class="standby-lines" aria-hidden="true"></div>
+              <span class="standby-channel">M/V <small>CHANNEL 01</small></span>
+              <div class="standby-main"><span class="eyebrow">THE MUSIC TELEVISION YOU MISSED</span><h1>LONG LIVE<br><em>LOUD.</em></h1><button class="tune-button" id="tune" disabled><span aria-hidden="true">▶</span> TUNE IN</button><p id="intro-status">Getting the band together…</p></div>
+              <span class="standby-bottom">HAIR METAL / HARD ROCK / LIVE & LOUD</span>
+            </div>
+          </div>
+          <div class="deck"><span class="deck-brand">METAL VISION <b>MV–01</b></span><span class="deck-lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span class="deck-note">STEREO • HIGH VOLTAGE</span></div>
+        </div>
+        <div class="transport"><div class="transport-main"><button id="power" disabled title="Stop watching" aria-label="Stop watching">⏻</button><button id="restart" disabled title="Play this video from the beginning">↶ <span>RESTART</span></button><button id="next" disabled title="Next video">▶▏ <span>NEXT</span></button></div><button class="live-button" id="live" disabled><i class="led"></i> TUNE LIVE</button><button id="theater" aria-pressed="false" title="Theater mode">⛶ <span>THEATER</span></button></div>
+        <p class="message" id="message" role="status" aria-live="polite"></p>
+        <div class="now-playing"><div class="on-air"><span class="eyebrow" id="playing-label">ON THE CHANNEL</span><div class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div><div class="track-info"><h2 id="artist">Sound. Vision. Attitude.</h2><p id="title">Your all-night metal fix.</p><span id="track-detail">Programmed from Hair Band Radio</span></div><a id="youtube-link" class="external" target="_blank" rel="noopener" hidden>Watch on YouTube ↗</a></div>
+        <div class="progress-row"><div class="progress-track"><div id="progress"></div></div><span id="elapsed">— / —</span></div>
+      </section>
+      <aside class="guide" aria-label="Upcoming videos"><div class="guide-title"><span class="eyebrow">THE RUNNING ORDER</span><h2>UP NEXT<span aria-hidden="true">↗</span></h2></div><ol id="up-next"></ol><div class="guide-footer"><span id="rotation-count">Loading tonight’s lineup</span><span class="rotation-stamp">NO SHUFFLE.<br>JUST ATTITUDE.</span></div></aside>
+    </main>
+    <section class="liner"><span class="liner-star" aria-hidden="true">★</span><div><h2>A REAL STATION. A WHOLE NEW SHOW.</h2><p>Hair Band Radio picks the songs. We bring the videos. Music videos and killer live performances, in the station’s running order. Tune in, turn it up, stay a while.</p></div><a href="https://techsnazzy.github.io/metal-radio/" target="_blank" rel="noopener">JUST WANT THE RADIO? ↗</a></section>
+    <footer><span>METAL VISION <span class="red">/</span> BUILT FOR THE LOVE OF IT.</span><button id="about-open">ABOUT THE CHANNEL +</button></footer>
+  </div>
+  <dialog id="about"><button id="about-close" class="dialog-close" aria-label="Close about">×</button><span class="eyebrow">BACKSTAGE</span><h2>YOUR OWN LATE-NIGHT<br>MUSIC TELEVISION.</h2><p>This independent fan project turns <a href="https://hairbandradio.com/" target="_blank" rel="noopener">Hair Band Radio’s</a> recorded song choices into a continuous daily video rotation. Songs with a matched video keep their broadcast order; unmatched songs and station jingles are skipped.</p><p>The guide refreshes in the background. Each day’s lineup stays fixed until the next UTC day, then a new rotation takes over between videos. Saved editions repeat if fresh programming is unavailable. Tuning in joins the approximate channel position; ads or pauses can put you behind. “Tune live” catches you up.</p><p>Playback uses YouTube’s original player. YouTube controls ads, availability, sign-in and Premium benefits; Premium recognition can vary with browser privacy settings. A tap may be needed to resume. Videos pause when this page is hidden.</p><p id="feed-status">Checking the station feed…</p><p class="fine">No accounts or analytics of our own. This app stores a recent guide on your device for resilience. YouTube receives data when its player loads. Not affiliated with MTV, YouTube, Hair Band Radio, or the artists. By using playback, you agree to <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube’s terms</a>; see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google’s privacy policy</a>.</p><button id="clear-data">Clear saved guide</button><a class="source-link" href="https://github.com/TechSnazzy/metal-vision" target="_blank" rel="noopener">SOURCE CODE ↗</a></dialog>
+  <noscript><p class="noscript">Metal Vision needs JavaScript to load its channel guide and video player.</p></noscript>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
