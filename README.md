@@ -115,6 +115,3 @@ GitHub may disable scheduled workflows after 60 days without repository activity
 successful collector commits normally keep this active. If collection stops,
 inspect Actions and run **Update channel and publish** manually.
 
-## Project continuation
-
-See `HANDOFF.md` for exact implementation/deployment status and remaining work.
