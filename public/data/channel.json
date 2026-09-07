@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": 1788754909026,
+  "updatedAt": 1788754999677,
   "sourceUpdatedAt": 1788754714000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 342,
-    "matched": 10,
+    "observed": 341,
+    "matched": 9,
     "catalog": 14,
     "automaticMatching": false
   },
@@ -391,19 +391,6 @@
       "id": "2026-09-08",
       "startsAt": 1788825600000,
       "tracks": [
-        {
-          "id": "56017",
-          "playedAt": 1788668548000,
-          "artist": "Cinderella",
-          "title": "Shake Me",
-          "album": "Night Songs",
-          "key": "cinderella|shake me",
-          "videoId": "ptPekKOigkQ",
-          "duration": 261,
-          "kind": "Music video",
-          "year": 1986,
-          "durationEstimated": true
-        },
         {
           "id": "56053",
           "playedAt": 1788671917000,
