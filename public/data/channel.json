@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": 1788875530010,
-  "sourceUpdatedAt": 1788875333000,
+  "updatedAt": 1788890022145,
+  "sourceUpdatedAt": 1788889963000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 341,
-    "matched": 7,
+    "observed": 343,
+    "matched": 6,
     "catalog": 14,
     "automaticMatching": false
   },
@@ -235,19 +235,6 @@
       "id": "2026-09-09",
       "startsAt": 1788912000000,
       "tracks": [
-        {
-          "id": "57323",
-          "playedAt": 1788793457000,
-          "artist": "Warrant",
-          "title": "Down Boys",
-          "album": "Dirty Rotten Filthy Stinking Rich",
-          "key": "warrant|down boys",
-          "videoId": "0RHENr6Xe70",
-          "duration": 247,
-          "kind": "Music video",
-          "year": 1989,
-          "durationEstimated": true
-        },
         {
           "id": "57706",
           "playedAt": 1788829404000,
