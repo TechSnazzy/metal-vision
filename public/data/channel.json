@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updatedAt": 1788844388697,
-  "sourceUpdatedAt": 1788844271000,
+  "updatedAt": 1788860483708,
+  "sourceUpdatedAt": 1788860374000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 341,
+    "observed": 340,
     "matched": 7,
     "catalog": 14,
     "automaticMatching": false
@@ -236,19 +236,6 @@
       "startsAt": 1788912000000,
       "tracks": [
         {
-          "id": "56955",
-          "playedAt": 1788758546000,
-          "artist": "Dokken",
-          "title": "In My Dreams",
-          "album": "Under Lock and Key",
-          "key": "dokken|in my dreams",
-          "videoId": "locJVSj6jdU",
-          "duration": 245,
-          "kind": "Music video",
-          "year": 1985,
-          "durationEstimated": true
-        },
-        {
           "id": "57323",
           "playedAt": 1788793457000,
           "artist": "Warrant",
@@ -324,6 +311,19 @@
           "duration": 252,
           "kind": "Music video",
           "year": 1990,
+          "durationEstimated": true
+        },
+        {
+          "id": "57945",
+          "playedAt": 1788852686000,
+          "artist": "Autograph",
+          "title": "Turn Up The Radio",
+          "album": "Sign In Please",
+          "key": "autograph|turn up the radio",
+          "videoId": "j8CcTYsMHYU",
+          "duration": 283,
+          "kind": "Music video",
+          "year": 1984,
           "durationEstimated": true
         }
       ]
