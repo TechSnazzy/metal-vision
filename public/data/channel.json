@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": 1788827968808,
-  "sourceUpdatedAt": 1788827904000,
+  "updatedAt": 1788844388697,
+  "sourceUpdatedAt": 1788844271000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 342,
-    "matched": 2,
+    "observed": 341,
+    "matched": 7,
     "catalog": 14,
     "automaticMatching": false
   },
@@ -259,6 +259,71 @@
           "duration": 247,
           "kind": "Music video",
           "year": 1989,
+          "durationEstimated": true
+        },
+        {
+          "id": "57706",
+          "playedAt": 1788829404000,
+          "artist": "Alice Cooper",
+          "title": "Poison",
+          "album": "Trash",
+          "key": "alice cooper|poison",
+          "videoId": "Qq4j1LtCdww",
+          "duration": 269,
+          "kind": "Music video",
+          "year": 1989,
+          "durationEstimated": true
+        },
+        {
+          "id": "57747",
+          "playedAt": 1788833531000,
+          "artist": "Firehouse",
+          "title": "All She Wrote",
+          "album": "Firehouse",
+          "key": "firehouse|all she wrote",
+          "videoId": "sidL7S09jsc",
+          "duration": 268,
+          "kind": "Music video",
+          "year": 1991,
+          "durationEstimated": true
+        },
+        {
+          "id": "57781",
+          "playedAt": 1788836809000,
+          "artist": "Bon Jovi",
+          "title": "Born To Be My Baby",
+          "album": "New Jersey",
+          "key": "bon jovi|born to be my baby",
+          "videoId": "Ahf2B_eZUc4",
+          "duration": 329,
+          "kind": "Music video",
+          "year": 1988,
+          "durationEstimated": true
+        },
+        {
+          "id": "57788",
+          "playedAt": 1788837620000,
+          "artist": "Cinderella",
+          "title": "Shake Me",
+          "album": "Night Songs",
+          "key": "cinderella|shake me",
+          "videoId": "ptPekKOigkQ",
+          "duration": 261,
+          "kind": "Music video",
+          "year": 1986,
+          "durationEstimated": true
+        },
+        {
+          "id": "57818",
+          "playedAt": 1788840723000,
+          "artist": "Warrant",
+          "title": "Sometimes She Cries",
+          "album": "Dirty Rotten Filthy Stinking Rich",
+          "key": "warrant|sometimes she cries",
+          "videoId": "DAX20LoVgxE",
+          "duration": 252,
+          "kind": "Music video",
+          "year": 1990,
           "durationEstimated": true
         }
       ]
