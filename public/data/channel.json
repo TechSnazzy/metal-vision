@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": 1788819310593,
-  "sourceUpdatedAt": 1788819184000,
+  "updatedAt": 1788827968808,
+  "sourceUpdatedAt": 1788827904000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
@@ -11,194 +11,6 @@
     "automaticMatching": false
   },
   "editions": [
-    {
-      "id": "2026-09-06",
-      "startsAt": 1788652800000,
-      "tracks": [
-        {
-          "id": "55354",
-          "playedAt": 1788604053000,
-          "artist": "Dokken",
-          "title": "In My Dreams",
-          "album": "Under Lock and Key",
-          "key": "dokken|in my dreams",
-          "videoId": "locJVSj6jdU",
-          "duration": 245,
-          "kind": "Music video",
-          "year": 1985,
-          "durationEstimated": true
-        },
-        {
-          "id": "55862",
-          "playedAt": 1788653637000,
-          "artist": "Warrant",
-          "title": "Down Boys",
-          "album": "Dirty Rotten Filthy Stinking Rich",
-          "key": "warrant|down boys",
-          "videoId": "0RHENr6Xe70",
-          "duration": 247,
-          "kind": "Music video",
-          "year": 1989,
-          "durationEstimated": true
-        },
-        {
-          "id": "55949",
-          "playedAt": 1788661947000,
-          "artist": "Guns N' Roses",
-          "title": "November Rain",
-          "album": "Use Your Illusion I",
-          "key": "guns n roses|november rain",
-          "videoId": "8SbUC-UaAxE",
-          "duration": 557,
-          "kind": "Music video",
-          "year": 1992,
-          "durationEstimated": true
-        },
-        {
-          "id": "56013",
-          "playedAt": 1788668268000,
-          "artist": "Firehouse",
-          "title": "Love Of A Lifetime",
-          "album": "Firehouse",
-          "key": "firehouse|love of a lifetime",
-          "videoId": "5ETENrv8cnU",
-          "duration": 289,
-          "kind": "Music video",
-          "year": 1991,
-          "durationEstimated": true
-        },
-        {
-          "id": "56017",
-          "playedAt": 1788668548000,
-          "artist": "Cinderella",
-          "title": "Shake Me",
-          "album": "Night Songs",
-          "key": "cinderella|shake me",
-          "videoId": "ptPekKOigkQ",
-          "duration": 261,
-          "kind": "Music video",
-          "year": 1986,
-          "durationEstimated": true
-        },
-        {
-          "id": "56053",
-          "playedAt": 1788671917000,
-          "artist": "Damn Yankees",
-          "title": "High Enough",
-          "album": "Damn Yankees",
-          "key": "damn yankees|high enough",
-          "videoId": "l_uh8XjgLTE",
-          "duration": 284,
-          "kind": "Music video",
-          "year": 1990,
-          "durationEstimated": true
-        },
-        {
-          "id": "56080",
-          "playedAt": 1788674224000,
-          "artist": "Alice Cooper",
-          "title": "Poison",
-          "album": "Trash",
-          "key": "alice cooper|poison",
-          "videoId": "Qq4j1LtCdww",
-          "duration": 269,
-          "kind": "Music video",
-          "year": 1989,
-          "durationEstimated": true
-        },
-        {
-          "id": "56113",
-          "playedAt": 1788677639000,
-          "artist": "Extreme",
-          "title": "Hole Hearted",
-          "album": "Pornograffitti",
-          "key": "extreme|hole hearted",
-          "videoId": "I-h4A7bF8wQ",
-          "duration": 222,
-          "kind": "Music video",
-          "year": 1991,
-          "durationEstimated": true
-        },
-        {
-          "id": "56119",
-          "playedAt": 1788678032000,
-          "artist": "Bon Jovi",
-          "title": "Born To Be My Baby",
-          "album": "New Jersey",
-          "key": "bon jovi|born to be my baby",
-          "videoId": "Ahf2B_eZUc4",
-          "duration": 329,
-          "kind": "Music video",
-          "year": 1988,
-          "durationEstimated": true
-        },
-        {
-          "id": "56127",
-          "playedAt": 1788679001000,
-          "artist": "Warrant",
-          "title": "Sometimes She Cries",
-          "album": "Dirty Rotten Filthy Stinking Rich",
-          "key": "warrant|sometimes she cries",
-          "videoId": "DAX20LoVgxE",
-          "duration": 252,
-          "kind": "Music video",
-          "year": 1990,
-          "durationEstimated": true
-        },
-        {
-          "id": "56136",
-          "playedAt": 1788679996000,
-          "artist": "Firehouse",
-          "title": "All She Wrote",
-          "album": "Firehouse",
-          "key": "firehouse|all she wrote",
-          "videoId": "sidL7S09jsc",
-          "duration": 268,
-          "kind": "Music video",
-          "year": 1991,
-          "durationEstimated": true
-        },
-        {
-          "id": "56138",
-          "playedAt": 1788680258000,
-          "artist": "Joan Jett and the Blackhearts",
-          "title": "I Hate Myself For Loving You",
-          "album": "Up Your Alley",
-          "key": "joan jett and the blackhearts|i hate myself for loving you",
-          "videoId": "bpNw7jYkbVc",
-          "duration": 255,
-          "kind": "Music video",
-          "year": 1988,
-          "durationEstimated": true
-        },
-        {
-          "id": "56142",
-          "playedAt": 1788680502000,
-          "artist": "Aerosmith",
-          "title": "The Other Side",
-          "album": "Pump",
-          "key": "aerosmith|the other side",
-          "videoId": "zkGfPrst29Y",
-          "duration": 248,
-          "kind": "Music video",
-          "year": 1990,
-          "durationEstimated": true
-        },
-        {
-          "id": "56144",
-          "playedAt": 1788680732000,
-          "artist": "Autograph",
-          "title": "Turn Up The Radio",
-          "album": "Sign In Please",
-          "key": "autograph|turn up the radio",
-          "videoId": "j8CcTYsMHYU",
-          "duration": 283,
-          "kind": "Music video",
-          "year": 1984,
-          "durationEstimated": true
-        }
-      ]
-    },
     {
       "id": "2026-09-07",
       "startsAt": 1788739200000,
@@ -390,6 +202,38 @@
     {
       "id": "2026-09-08",
       "startsAt": 1788825600000,
+      "tracks": [
+        {
+          "id": "56955",
+          "playedAt": 1788758546000,
+          "artist": "Dokken",
+          "title": "In My Dreams",
+          "album": "Under Lock and Key",
+          "key": "dokken|in my dreams",
+          "videoId": "locJVSj6jdU",
+          "duration": 245,
+          "kind": "Music video",
+          "year": 1985,
+          "durationEstimated": true
+        },
+        {
+          "id": "57323",
+          "playedAt": 1788793457000,
+          "artist": "Warrant",
+          "title": "Down Boys",
+          "album": "Dirty Rotten Filthy Stinking Rich",
+          "key": "warrant|down boys",
+          "videoId": "0RHENr6Xe70",
+          "duration": 247,
+          "kind": "Music video",
+          "year": 1989,
+          "durationEstimated": true
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09",
+      "startsAt": 1788912000000,
       "tracks": [
         {
           "id": "56955",
