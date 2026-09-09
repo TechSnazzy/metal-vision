@@ -10478,5 +10478,589 @@
     "title": "November Rain",
     "album": "Use Your Illusion I",
     "key": "guns n roses|november rain"
+  },
+  {
+    "id": "58620",
+    "playedAt": 1788917590000,
+    "artist": "Aerosmith",
+    "title": "Dude (Looks Like A Lady)",
+    "album": "Permanent Vacation",
+    "key": "aerosmith|dude looks like a lady"
+  },
+  {
+    "id": "58623",
+    "playedAt": 1788917838000,
+    "artist": "Roxx Gang",
+    "title": "Scratch My Back",
+    "album": "Things You've Never Done Before",
+    "key": "roxx gang|scratch my back"
+  },
+  {
+    "id": "58626",
+    "playedAt": 1788918141000,
+    "artist": "Bonham",
+    "title": "Wait For You",
+    "album": "The Disregard of Timekeeping",
+    "key": "bonham|wait for you"
+  },
+  {
+    "id": "58629",
+    "playedAt": 1788918439000,
+    "artist": "Helix",
+    "title": "Good To The Last Drop",
+    "album": "Back for Another Taste",
+    "key": "helix|good to the last drop"
+  },
+  {
+    "id": "58632",
+    "playedAt": 1788918700000,
+    "artist": "Cinderella",
+    "title": "Somebody Save Me",
+    "album": "Night Songs",
+    "key": "cinderella|somebody save me"
+  },
+  {
+    "id": "58637",
+    "playedAt": 1788918892000,
+    "artist": "Joan Jett and the Blackhearts",
+    "title": "I Hate Myself For Loving You",
+    "album": "Up Your Alley",
+    "key": "joan jett and the blackhearts|i hate myself for loving you"
+  },
+  {
+    "id": "58639",
+    "playedAt": 1788919137000,
+    "artist": "Razormaid",
+    "title": "Too Late",
+    "album": "First Cutt",
+    "key": "razormaid|too late"
+  },
+  {
+    "id": "58641",
+    "playedAt": 1788919419000,
+    "artist": "Def Leppard",
+    "title": "Bringin' On The Heartbreak",
+    "album": "High 'N' Dry",
+    "key": "def leppard|bringin on the heartbreak"
+  },
+  {
+    "id": "58645",
+    "playedAt": 1788919682000,
+    "artist": "Danger Danger",
+    "title": "Bang Bang",
+    "album": "Danger Danger",
+    "key": "danger danger|bang bang"
+  },
+  {
+    "id": "58647",
+    "playedAt": 1788919905000,
+    "artist": "Y&T",
+    "title": "Don't Stop Runnin'",
+    "album": "In Rock We Trust",
+    "key": "y and t|don t stop runnin"
+  },
+  {
+    "id": "58649",
+    "playedAt": 1788920150000,
+    "artist": "Impellitteri",
+    "title": "Stand In Line",
+    "album": "Stand In Line",
+    "key": "impellitteri|stand in line"
+  },
+  {
+    "id": "58653",
+    "playedAt": 1788920417000,
+    "artist": "Slaughter",
+    "title": "Burnin' Bridges",
+    "album": "Stick It To Ya",
+    "key": "slaughter|burnin bridges"
+  },
+  {
+    "id": "58654",
+    "playedAt": 1788920659000,
+    "artist": "T.N.T.",
+    "title": "Everyone's A Star",
+    "album": "Tell No Tales",
+    "key": "t n t|everyone s a star"
+  },
+  {
+    "id": "58656",
+    "playedAt": 1788920857000,
+    "artist": "Aerosmith",
+    "title": "Livin' On The Edge",
+    "album": "Get A Grip",
+    "key": "aerosmith|livin on the edge"
+  },
+  {
+    "id": "58658",
+    "playedAt": 1788921216000,
+    "artist": "Van Halen",
+    "title": "Not Enough",
+    "album": "Balance",
+    "key": "van halen|not enough"
+  },
+  {
+    "id": "58663",
+    "playedAt": 1788921525000,
+    "artist": "KISS",
+    "title": "Crazy, Crazy Nights",
+    "album": "Crazy Nights",
+    "key": "kiss|crazy crazy nights"
+  },
+  {
+    "id": "58666",
+    "playedAt": 1788921741000,
+    "artist": "Savatage",
+    "title": "Out On The Streets",
+    "album": "Fight For The Rock",
+    "key": "savatage|out on the streets"
+  },
+  {
+    "id": "58668",
+    "playedAt": 1788921966000,
+    "artist": "L.A. Guns",
+    "title": "I Wanna Be Your Man",
+    "album": "Cocked & Loaded",
+    "key": "l a guns|i wanna be your man"
+  },
+  {
+    "id": "58669",
+    "playedAt": 1788922175000,
+    "artist": "Keel",
+    "title": "Dreams Are Not Enough",
+    "album": "Larger Than Live",
+    "key": "keel|dreams are not enough"
+  },
+  {
+    "id": "58672",
+    "playedAt": 1788922429000,
+    "artist": "Dokken",
+    "title": "In My Dreams",
+    "album": "Under Lock and Key",
+    "key": "dokken|in my dreams"
+  },
+  {
+    "id": "58675",
+    "playedAt": 1788922676000,
+    "artist": "Y&T",
+    "title": "All American Boy",
+    "album": "Down For The Count",
+    "key": "y and t|all american boy"
+  },
+  {
+    "id": "58676",
+    "playedAt": 1788922816000,
+    "artist": "Def Leppard",
+    "title": "Love And Affection",
+    "album": "Hysteria",
+    "key": "def leppard|love and affection"
+  },
+  {
+    "id": "58680",
+    "playedAt": 1788923070000,
+    "artist": "Cinderella",
+    "title": "Heartbreak Station",
+    "album": "Heartbreak Station",
+    "key": "cinderella|heartbreak station"
+  },
+  {
+    "id": "58684",
+    "playedAt": 1788923340000,
+    "artist": "Kix",
+    "title": "Blow My Fuse",
+    "album": "Blow My Fuse",
+    "key": "kix|blow my fuse"
+  },
+  {
+    "id": "58686",
+    "playedAt": 1788923553000,
+    "artist": "Jackyl",
+    "title": "Down On Me",
+    "album": "Jackyl",
+    "key": "jackyl|down on me"
+  },
+  {
+    "id": "58689",
+    "playedAt": 1788923793000,
+    "artist": "Motley Crue",
+    "title": "If I Die Tomorrow",
+    "album": "Red, White and Crue",
+    "key": "motley crue|if i die tomorrow"
+  },
+  {
+    "id": "58692",
+    "playedAt": 1788924012000,
+    "artist": "Lita Ford",
+    "title": "Blueberry",
+    "album": "Lita",
+    "key": "lita ford|blueberry"
+  },
+  {
+    "id": "58695",
+    "playedAt": 1788924230000,
+    "artist": "Trixter",
+    "title": "Give It To Me Good",
+    "album": "Trixter",
+    "key": "trixter|give it to me good"
+  },
+  {
+    "id": "58697",
+    "playedAt": 1788924437000,
+    "artist": "Quiet Riot",
+    "title": "Slick Black Cadillac",
+    "album": "Metal Health",
+    "key": "quiet riot|slick black cadillac"
+  },
+  {
+    "id": "58700",
+    "playedAt": 1788924690000,
+    "artist": "Heart",
+    "title": "Never",
+    "album": "Heart",
+    "key": "heart|never"
+  },
+  {
+    "id": "58702",
+    "playedAt": 1788924927000,
+    "artist": "Firehouse",
+    "title": "Here For You",
+    "album": "Firehouse 3",
+    "key": "firehouse|here for you"
+  },
+  {
+    "id": "58706",
+    "playedAt": 1788925156000,
+    "artist": "Europe",
+    "title": "Superstitious",
+    "album": "Out Of This World",
+    "key": "europe|superstitious"
+  },
+  {
+    "id": "58708",
+    "playedAt": 1788925427000,
+    "artist": "Y&T",
+    "title": "L.A. Rocks",
+    "album": "Contagious",
+    "key": "y and t|l a rocks"
+  },
+  {
+    "id": "58711",
+    "playedAt": 1788925702000,
+    "artist": "Def Leppard",
+    "title": "Heaven Is",
+    "album": "Adrenalize",
+    "key": "def leppard|heaven is"
+  },
+  {
+    "id": "58712",
+    "playedAt": 1788925907000,
+    "artist": "Rough Cutt",
+    "title": "The Night Cries Out For You",
+    "album": "Rough Cutt Wants You",
+    "key": "rough cutt|the night cries out for you"
+  },
+  {
+    "id": "58715",
+    "playedAt": 1788926209000,
+    "artist": "Bon Jovi",
+    "title": "Runaway",
+    "album": "Bon Jovi",
+    "key": "bon jovi|runaway"
+  },
+  {
+    "id": "58718",
+    "playedAt": 1788926434000,
+    "artist": "Cinderella",
+    "title": "Fallin' Apart At The Seams",
+    "album": "Long Cold Winter",
+    "key": "cinderella|fallin apart at the seams"
+  },
+  {
+    "id": "58720",
+    "playedAt": 1788926713000,
+    "artist": "Iron Maiden",
+    "title": "Wasted Years",
+    "album": "Somewhere In Time",
+    "key": "iron maiden|wasted years"
+  },
+  {
+    "id": "58722",
+    "playedAt": 1788927011000,
+    "artist": "Great White",
+    "title": "House Of Broken Love",
+    "album": "…Twice Shy",
+    "key": "great white|house of broken love"
+  },
+  {
+    "id": "58726",
+    "playedAt": 1788927367000,
+    "artist": "Winger",
+    "title": "Hungry",
+    "album": "Winger",
+    "key": "winger|hungry"
+  },
+  {
+    "id": "58728",
+    "playedAt": 1788927605000,
+    "artist": "Faster Pussycat",
+    "title": "Babylon",
+    "album": "Faster Pussycat",
+    "key": "faster pussycat|babylon"
+  },
+  {
+    "id": "58730",
+    "playedAt": 1788927798000,
+    "artist": "Chrissy Steele",
+    "title": "Love You Til It Hurts",
+    "album": "Magnet to Steele",
+    "key": "chrissy steele|love you til it hurts"
+  },
+  {
+    "id": "58734",
+    "playedAt": 1788928117000,
+    "artist": "Guns N' Roses",
+    "title": "Welcome To The Jungle",
+    "album": "Appetite For Destruction",
+    "key": "guns n roses|welcome to the jungle"
+  },
+  {
+    "id": "58736",
+    "playedAt": 1788928380000,
+    "artist": "L.A. Guns",
+    "title": "Rip And Tear",
+    "album": "Cocked & Loaded",
+    "key": "l a guns|rip and tear"
+  },
+  {
+    "id": "58738",
+    "playedAt": 1788928619000,
+    "artist": "Giant",
+    "title": "I'm A Believer",
+    "album": "Last of the Runaways",
+    "key": "giant|i m a believer"
+  },
+  {
+    "id": "58741",
+    "playedAt": 1788928950000,
+    "artist": "Motley Crue",
+    "title": "You're All I Need",
+    "album": "Girls, Girls, Girls",
+    "key": "motley crue|you re all i need"
+  },
+  {
+    "id": "58746",
+    "playedAt": 1788929345000,
+    "artist": "Scorpions",
+    "title": "Big City Nights",
+    "album": "Love at First Sting",
+    "key": "scorpions|big city nights"
+  },
+  {
+    "id": "58749",
+    "playedAt": 1788929581000,
+    "artist": "Little Angels",
+    "title": "I Ain`t Gonna Cry",
+    "album": "Young Gods",
+    "key": "little angels|i ain t gonna cry"
+  },
+  {
+    "id": "58751",
+    "playedAt": 1788929838000,
+    "artist": "Autograph",
+    "title": "Send Her To Me",
+    "album": "Sign in Please",
+    "key": "autograph|send her to me"
+  },
+  {
+    "id": "58754",
+    "playedAt": 1788930065000,
+    "artist": "Vandenberg",
+    "title": "Burning Heart",
+    "album": "Vandenberg",
+    "key": "vandenberg|burning heart"
+  },
+  {
+    "id": "58758",
+    "playedAt": 1788930316000,
+    "artist": "T.N.T.",
+    "title": "10,000 Lovers",
+    "album": "Tell No Tales",
+    "key": "t n t|10 000 lovers"
+  },
+  {
+    "id": "58761",
+    "playedAt": 1788930489000,
+    "artist": "Kingdom Come",
+    "title": "Get It On",
+    "album": "Kingdom Come",
+    "key": "kingdom come|get it on"
+  },
+  {
+    "id": "58764",
+    "playedAt": 1788930720000,
+    "artist": "Keel",
+    "title": "I Said The Wrong Thing To The Right Girl",
+    "album": "Keel",
+    "key": "keel|i said the wrong thing to the right girl"
+  },
+  {
+    "id": "58765",
+    "playedAt": 1788930954000,
+    "artist": "Tesla",
+    "title": "Love Song",
+    "album": "The Great Radio Controversy",
+    "key": "tesla|love song"
+  },
+  {
+    "id": "58768",
+    "playedAt": 1788931200000,
+    "artist": "Lita Ford",
+    "title": "Playin' With Fire",
+    "album": "Dangerous Curves",
+    "key": "lita ford|playin with fire"
+  },
+  {
+    "id": "58770",
+    "playedAt": 1788931430000,
+    "artist": "Krokus",
+    "title": "Midnite Maniac",
+    "album": "The Blitz",
+    "key": "krokus|midnite maniac"
+  },
+  {
+    "id": "58774",
+    "playedAt": 1788931682000,
+    "artist": "Van Halen",
+    "title": "Top Of The World [Live Dallas 1991]",
+    "album": "For Unlawful Carnal Knowledge Expanded",
+    "key": "van halen|top of the world live dallas 1991"
+  },
+  {
+    "id": "58778",
+    "playedAt": 1788931958000,
+    "artist": "Heavy Bones",
+    "title": "4 AM T.M.",
+    "album": "Heavy Bones",
+    "key": "heavy bones|4 am t m"
+  },
+  {
+    "id": "58781",
+    "playedAt": 1788932250000,
+    "artist": "Motley Crue",
+    "title": "Same Ol' Situation",
+    "album": "Dr. Feelgood",
+    "key": "motley crue|same ol situation"
+  },
+  {
+    "id": "58783",
+    "playedAt": 1788932500000,
+    "artist": "Def Leppard",
+    "title": "Don't Shoot Shotgun",
+    "album": "Hysteria",
+    "key": "def leppard|don t shoot shotgun"
+  },
+  {
+    "id": "58786",
+    "playedAt": 1788932766000,
+    "artist": "Loverboy",
+    "title": "Notorious",
+    "album": "Wildside",
+    "key": "loverboy|notorious"
+  },
+  {
+    "id": "58787",
+    "playedAt": 1788933038000,
+    "artist": "Stryper",
+    "title": "I Believe In You",
+    "album": "In God We Trust",
+    "key": "stryper|i believe in you"
+  },
+  {
+    "id": "58790",
+    "playedAt": 1788933229000,
+    "artist": "Winger",
+    "title": "Can't Get Enuff",
+    "album": "In the Heart of the Young",
+    "key": "winger|can t get enuff"
+  },
+  {
+    "id": "58791",
+    "playedAt": 1788933462000,
+    "artist": "House of Lords",
+    "title": "Can't Find My Way Home",
+    "album": "Sahara",
+    "key": "house of lords|can t find my way home"
+  },
+  {
+    "id": "58794",
+    "playedAt": 1788933754000,
+    "artist": "Lita Ford",
+    "title": "Hungry",
+    "album": "Stiletto",
+    "key": "lita ford|hungry"
+  },
+  {
+    "id": "58796",
+    "playedAt": 1788934037000,
+    "artist": "Shark Island",
+    "title": "Bad For Each Other",
+    "album": "Law of the Order",
+    "key": "shark island|bad for each other"
+  },
+  {
+    "id": "58800",
+    "playedAt": 1788934320000,
+    "artist": "Ratt",
+    "title": "Wanted Man",
+    "album": "Out of the Cellar",
+    "key": "ratt|wanted man"
+  },
+  {
+    "id": "58802",
+    "playedAt": 1788934534000,
+    "artist": "Vain",
+    "title": "Who's Watching You",
+    "album": "No Respect",
+    "key": "vain|who s watching you"
+  },
+  {
+    "id": "58804",
+    "playedAt": 1788934787000,
+    "artist": "Van Halen",
+    "title": "Humans Being",
+    "album": "Twister Soundtrack",
+    "key": "van halen|humans being"
+  },
+  {
+    "id": "58807",
+    "playedAt": 1788935082000,
+    "artist": "Bon Jovi",
+    "title": "Always",
+    "album": "Cross Road",
+    "key": "bon jovi|always"
+  },
+  {
+    "id": "58810",
+    "playedAt": 1788935357000,
+    "artist": "Warrant",
+    "title": "Down Boys",
+    "album": "Dirty Rotten Filthy Stinking Rich",
+    "key": "warrant|down boys"
+  },
+  {
+    "id": "58812",
+    "playedAt": 1788935579000,
+    "artist": "Europe",
+    "title": "I'll Cry For You",
+    "album": "Prisoners in Paradise",
+    "key": "europe|i ll cry for you"
+  },
+  {
+    "id": "58815",
+    "playedAt": 1788935850000,
+    "artist": "Smashed Gladys",
+    "title": "Legs Up",
+    "album": "Social Intercourse",
+    "key": "smashed gladys|legs up"
   }
 ]

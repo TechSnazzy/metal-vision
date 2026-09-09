@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": 1788917420517,
-  "sourceUpdatedAt": 1788917059000,
+  "updatedAt": 1788935950383,
+  "sourceUpdatedAt": 1788935850000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 337,
-    "matched": 7,
+    "observed": 339,
+    "matched": 6,
     "catalog": 14,
     "automaticMatching": false
   },
@@ -145,58 +145,6 @@
       "startsAt": 1788998400000,
       "tracks": [
         {
-          "id": "57747",
-          "playedAt": 1788833531000,
-          "artist": "Firehouse",
-          "title": "All She Wrote",
-          "album": "Firehouse",
-          "key": "firehouse|all she wrote",
-          "videoId": "sidL7S09jsc",
-          "duration": 268,
-          "kind": "Music video",
-          "year": 1991,
-          "durationEstimated": true
-        },
-        {
-          "id": "57781",
-          "playedAt": 1788836809000,
-          "artist": "Bon Jovi",
-          "title": "Born To Be My Baby",
-          "album": "New Jersey",
-          "key": "bon jovi|born to be my baby",
-          "videoId": "Ahf2B_eZUc4",
-          "duration": 329,
-          "kind": "Music video",
-          "year": 1988,
-          "durationEstimated": true
-        },
-        {
-          "id": "57788",
-          "playedAt": 1788837620000,
-          "artist": "Cinderella",
-          "title": "Shake Me",
-          "album": "Night Songs",
-          "key": "cinderella|shake me",
-          "videoId": "ptPekKOigkQ",
-          "duration": 261,
-          "kind": "Music video",
-          "year": 1986,
-          "durationEstimated": true
-        },
-        {
-          "id": "57818",
-          "playedAt": 1788840723000,
-          "artist": "Warrant",
-          "title": "Sometimes She Cries",
-          "album": "Dirty Rotten Filthy Stinking Rich",
-          "key": "warrant|sometimes she cries",
-          "videoId": "DAX20LoVgxE",
-          "duration": 252,
-          "kind": "Music video",
-          "year": 1990,
-          "durationEstimated": true
-        },
-        {
           "id": "57945",
           "playedAt": 1788852686000,
           "artist": "Autograph",
@@ -233,6 +181,45 @@
           "duration": 557,
           "kind": "Music video",
           "year": 1992,
+          "durationEstimated": true
+        },
+        {
+          "id": "58637",
+          "playedAt": 1788918892000,
+          "artist": "Joan Jett and the Blackhearts",
+          "title": "I Hate Myself For Loving You",
+          "album": "Up Your Alley",
+          "key": "joan jett and the blackhearts|i hate myself for loving you",
+          "videoId": "bpNw7jYkbVc",
+          "duration": 255,
+          "kind": "Music video",
+          "year": 1988,
+          "durationEstimated": true
+        },
+        {
+          "id": "58672",
+          "playedAt": 1788922429000,
+          "artist": "Dokken",
+          "title": "In My Dreams",
+          "album": "Under Lock and Key",
+          "key": "dokken|in my dreams",
+          "videoId": "locJVSj6jdU",
+          "duration": 245,
+          "kind": "Music video",
+          "year": 1985,
+          "durationEstimated": true
+        },
+        {
+          "id": "58810",
+          "playedAt": 1788935357000,
+          "artist": "Warrant",
+          "title": "Down Boys",
+          "album": "Dirty Rotten Filthy Stinking Rich",
+          "key": "warrant|down boys",
+          "videoId": "0RHENr6Xe70",
+          "duration": 247,
+          "kind": "Music video",
+          "year": 1989,
           "durationEstimated": true
         }
       ]
