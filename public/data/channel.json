@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updatedAt": 1788935950383,
-  "sourceUpdatedAt": 1788935850000,
+  "updatedAt": 1788954574878,
+  "sourceUpdatedAt": 1788954532000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 339,
+    "observed": 342,
     "matched": 6,
     "catalog": 14,
     "automaticMatching": false
@@ -145,19 +145,6 @@
       "startsAt": 1788998400000,
       "tracks": [
         {
-          "id": "57945",
-          "playedAt": 1788852686000,
-          "artist": "Autograph",
-          "title": "Turn Up The Radio",
-          "album": "Sign In Please",
-          "key": "autograph|turn up the radio",
-          "videoId": "j8CcTYsMHYU",
-          "duration": 283,
-          "kind": "Music video",
-          "year": 1984,
-          "durationEstimated": true
-        },
-        {
           "id": "58477",
           "playedAt": 1788903533000,
           "artist": "Firehouse",
@@ -220,6 +207,19 @@
           "duration": 247,
           "kind": "Music video",
           "year": 1989,
+          "durationEstimated": true
+        },
+        {
+          "id": "58823",
+          "playedAt": 1788936599000,
+          "artist": "Extreme",
+          "title": "Hole Hearted",
+          "album": "Pornograffitti",
+          "key": "extreme|hole hearted",
+          "videoId": "I-h4A7bF8wQ",
+          "duration": 222,
+          "kind": "Music video",
+          "year": 1991,
           "durationEstimated": true
         }
       ]
