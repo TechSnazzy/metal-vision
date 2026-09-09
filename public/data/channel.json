@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": 1788982086735,
-  "sourceUpdatedAt": 1788982063000,
+  "updatedAt": 1788990992904,
+  "sourceUpdatedAt": 1788990708000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
@@ -145,19 +145,6 @@
       "startsAt": 1788998400000,
       "tracks": [
         {
-          "id": "58477",
-          "playedAt": 1788903533000,
-          "artist": "Firehouse",
-          "title": "Love Of A Lifetime",
-          "album": "Firehouse",
-          "key": "firehouse|love of a lifetime",
-          "videoId": "5ETENrv8cnU",
-          "duration": 289,
-          "kind": "Music video",
-          "year": 1991,
-          "durationEstimated": true
-        },
-        {
           "id": "58615",
           "playedAt": 1788917059000,
           "artist": "Guns N' Roses",
@@ -259,6 +246,19 @@
           "duration": 261,
           "kind": "Music video",
           "year": 1986,
+          "durationEstimated": true
+        },
+        {
+          "id": "59332",
+          "playedAt": 1788986188000,
+          "artist": "Alice Cooper",
+          "title": "Poison",
+          "album": "Trash",
+          "key": "alice cooper|poison",
+          "videoId": "Qq4j1LtCdww",
+          "duration": 269,
+          "kind": "Music video",
+          "year": 1989,
           "durationEstimated": true
         }
       ]
