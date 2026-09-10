@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": 1788998999193,
-  "sourceUpdatedAt": 1788998755000,
+  "updatedAt": 1789014992338,
+  "sourceUpdatedAt": 1789014990000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 342,
-    "matched": 11,
+    "observed": 344,
+    "matched": 8,
     "catalog": 14,
     "automaticMatching": false
   },
@@ -235,45 +235,6 @@
       "id": "2026-09-11",
       "startsAt": 1789084800000,
       "tracks": [
-        {
-          "id": "58615",
-          "playedAt": 1788917059000,
-          "artist": "Guns N' Roses",
-          "title": "November Rain",
-          "album": "Use Your Illusion I",
-          "key": "guns n roses|november rain",
-          "videoId": "8SbUC-UaAxE",
-          "duration": 557,
-          "kind": "Music video",
-          "year": 1992,
-          "durationEstimated": true
-        },
-        {
-          "id": "58637",
-          "playedAt": 1788918892000,
-          "artist": "Joan Jett and the Blackhearts",
-          "title": "I Hate Myself For Loving You",
-          "album": "Up Your Alley",
-          "key": "joan jett and the blackhearts|i hate myself for loving you",
-          "videoId": "bpNw7jYkbVc",
-          "duration": 255,
-          "kind": "Music video",
-          "year": 1988,
-          "durationEstimated": true
-        },
-        {
-          "id": "58672",
-          "playedAt": 1788922429000,
-          "artist": "Dokken",
-          "title": "In My Dreams",
-          "album": "Under Lock and Key",
-          "key": "dokken|in my dreams",
-          "videoId": "locJVSj6jdU",
-          "duration": 245,
-          "kind": "Music video",
-          "year": 1985,
-          "durationEstimated": true
-        },
         {
           "id": "58810",
           "playedAt": 1788935357000,
