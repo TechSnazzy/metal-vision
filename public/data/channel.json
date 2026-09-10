@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updatedAt": 1789069194221,
-  "sourceUpdatedAt": 1789068979000,
+  "updatedAt": 1789077189177,
+  "sourceUpdatedAt": 1789077068000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 340,
+    "observed": 339,
     "matched": 4,
     "catalog": 14,
     "automaticMatching": false
@@ -236,19 +236,6 @@
       "startsAt": 1789084800000,
       "tracks": [
         {
-          "id": "59332",
-          "playedAt": 1788986188000,
-          "artist": "Alice Cooper",
-          "title": "Poison",
-          "album": "Trash",
-          "key": "alice cooper|poison",
-          "videoId": "Qq4j1LtCdww",
-          "duration": 269,
-          "kind": "Music video",
-          "year": 1989,
-          "durationEstimated": true
-        },
-        {
           "id": "59439",
           "playedAt": 1788996266000,
           "artist": "Bon Jovi",
@@ -285,6 +272,19 @@
           "duration": 283,
           "kind": "Music video",
           "year": 1984,
+          "durationEstimated": true
+        },
+        {
+          "id": "60262",
+          "playedAt": 1789075778000,
+          "artist": "Dokken",
+          "title": "In My Dreams",
+          "album": "Under Lock and Key",
+          "key": "dokken|in my dreams",
+          "videoId": "locJVSj6jdU",
+          "duration": 245,
+          "kind": "Music video",
+          "year": 1985,
           "durationEstimated": true
         }
       ]
