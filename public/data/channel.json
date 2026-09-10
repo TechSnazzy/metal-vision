@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": 1789047207887,
-  "sourceUpdatedAt": 1789047132000,
+  "updatedAt": 1789060187106,
+  "sourceUpdatedAt": 1789060086000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
     "observed": 341,
-    "matched": 7,
+    "matched": 6,
     "catalog": 14,
     "automaticMatching": false
   },
@@ -235,19 +235,6 @@
       "id": "2026-09-11",
       "startsAt": 1789084800000,
       "tracks": [
-        {
-          "id": "59082",
-          "playedAt": 1788961797000,
-          "artist": "Damn Yankees",
-          "title": "High Enough",
-          "album": "Damn Yankees",
-          "key": "damn yankees|high enough",
-          "videoId": "l_uh8XjgLTE",
-          "duration": 284,
-          "kind": "Music video",
-          "year": 1990,
-          "durationEstimated": true
-        },
         {
           "id": "59255",
           "playedAt": 1788978669000,
