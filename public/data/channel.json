@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": 1789060187106,
-  "sourceUpdatedAt": 1789060086000,
+  "updatedAt": 1789069194221,
+  "sourceUpdatedAt": 1789068979000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 341,
-    "matched": 6,
+    "observed": 340,
+    "matched": 4,
     "catalog": 14,
     "automaticMatching": false
   },
@@ -235,32 +235,6 @@
       "id": "2026-09-11",
       "startsAt": 1789084800000,
       "tracks": [
-        {
-          "id": "59255",
-          "playedAt": 1788978669000,
-          "artist": "Firehouse",
-          "title": "All She Wrote",
-          "album": "Firehouse",
-          "key": "firehouse|all she wrote",
-          "videoId": "sidL7S09jsc",
-          "duration": 268,
-          "kind": "Music video",
-          "year": 1991,
-          "durationEstimated": true
-        },
-        {
-          "id": "59264",
-          "playedAt": 1788979514000,
-          "artist": "Cinderella",
-          "title": "Shake Me",
-          "album": "Night Songs",
-          "key": "cinderella|shake me",
-          "videoId": "ptPekKOigkQ",
-          "duration": 261,
-          "kind": "Music video",
-          "year": 1986,
-          "durationEstimated": true
-        },
         {
           "id": "59332",
           "playedAt": 1788986188000,
