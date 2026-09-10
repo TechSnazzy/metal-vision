@@ -1,48 +1,16 @@
 {
   "version": 1,
-  "updatedAt": 1788990992904,
-  "sourceUpdatedAt": 1788990708000,
+  "updatedAt": 1788998999193,
+  "sourceUpdatedAt": 1788998755000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
     "observed": 342,
-    "matched": 9,
+    "matched": 11,
     "catalog": 14,
     "automaticMatching": false
   },
   "editions": [
-    {
-      "id": "2026-09-08",
-      "startsAt": 1788825600000,
-      "tracks": [
-        {
-          "id": "56955",
-          "playedAt": 1788758546000,
-          "artist": "Dokken",
-          "title": "In My Dreams",
-          "album": "Under Lock and Key",
-          "key": "dokken|in my dreams",
-          "videoId": "locJVSj6jdU",
-          "duration": 245,
-          "kind": "Music video",
-          "year": 1985,
-          "durationEstimated": true
-        },
-        {
-          "id": "57323",
-          "playedAt": 1788793457000,
-          "artist": "Warrant",
-          "title": "Down Boys",
-          "album": "Dirty Rotten Filthy Stinking Rich",
-          "key": "warrant|down boys",
-          "videoId": "0RHENr6Xe70",
-          "duration": 247,
-          "kind": "Music video",
-          "year": 1989,
-          "durationEstimated": true
-        }
-      ]
-    },
     {
       "id": "2026-09-09",
       "startsAt": 1788912000000,
@@ -259,6 +227,155 @@
           "duration": 269,
           "kind": "Music video",
           "year": 1989,
+          "durationEstimated": true
+        }
+      ]
+    },
+    {
+      "id": "2026-09-11",
+      "startsAt": 1789084800000,
+      "tracks": [
+        {
+          "id": "58615",
+          "playedAt": 1788917059000,
+          "artist": "Guns N' Roses",
+          "title": "November Rain",
+          "album": "Use Your Illusion I",
+          "key": "guns n roses|november rain",
+          "videoId": "8SbUC-UaAxE",
+          "duration": 557,
+          "kind": "Music video",
+          "year": 1992,
+          "durationEstimated": true
+        },
+        {
+          "id": "58637",
+          "playedAt": 1788918892000,
+          "artist": "Joan Jett and the Blackhearts",
+          "title": "I Hate Myself For Loving You",
+          "album": "Up Your Alley",
+          "key": "joan jett and the blackhearts|i hate myself for loving you",
+          "videoId": "bpNw7jYkbVc",
+          "duration": 255,
+          "kind": "Music video",
+          "year": 1988,
+          "durationEstimated": true
+        },
+        {
+          "id": "58672",
+          "playedAt": 1788922429000,
+          "artist": "Dokken",
+          "title": "In My Dreams",
+          "album": "Under Lock and Key",
+          "key": "dokken|in my dreams",
+          "videoId": "locJVSj6jdU",
+          "duration": 245,
+          "kind": "Music video",
+          "year": 1985,
+          "durationEstimated": true
+        },
+        {
+          "id": "58810",
+          "playedAt": 1788935357000,
+          "artist": "Warrant",
+          "title": "Down Boys",
+          "album": "Dirty Rotten Filthy Stinking Rich",
+          "key": "warrant|down boys",
+          "videoId": "0RHENr6Xe70",
+          "duration": 247,
+          "kind": "Music video",
+          "year": 1989,
+          "durationEstimated": true
+        },
+        {
+          "id": "58823",
+          "playedAt": 1788936599000,
+          "artist": "Extreme",
+          "title": "Hole Hearted",
+          "album": "Pornograffitti",
+          "key": "extreme|hole hearted",
+          "videoId": "I-h4A7bF8wQ",
+          "duration": 222,
+          "kind": "Music video",
+          "year": 1991,
+          "durationEstimated": true
+        },
+        {
+          "id": "59082",
+          "playedAt": 1788961797000,
+          "artist": "Damn Yankees",
+          "title": "High Enough",
+          "album": "Damn Yankees",
+          "key": "damn yankees|high enough",
+          "videoId": "l_uh8XjgLTE",
+          "duration": 284,
+          "kind": "Music video",
+          "year": 1990,
+          "durationEstimated": true
+        },
+        {
+          "id": "59255",
+          "playedAt": 1788978669000,
+          "artist": "Firehouse",
+          "title": "All She Wrote",
+          "album": "Firehouse",
+          "key": "firehouse|all she wrote",
+          "videoId": "sidL7S09jsc",
+          "duration": 268,
+          "kind": "Music video",
+          "year": 1991,
+          "durationEstimated": true
+        },
+        {
+          "id": "59264",
+          "playedAt": 1788979514000,
+          "artist": "Cinderella",
+          "title": "Shake Me",
+          "album": "Night Songs",
+          "key": "cinderella|shake me",
+          "videoId": "ptPekKOigkQ",
+          "duration": 261,
+          "kind": "Music video",
+          "year": 1986,
+          "durationEstimated": true
+        },
+        {
+          "id": "59332",
+          "playedAt": 1788986188000,
+          "artist": "Alice Cooper",
+          "title": "Poison",
+          "album": "Trash",
+          "key": "alice cooper|poison",
+          "videoId": "Qq4j1LtCdww",
+          "duration": 269,
+          "kind": "Music video",
+          "year": 1989,
+          "durationEstimated": true
+        },
+        {
+          "id": "59439",
+          "playedAt": 1788996266000,
+          "artist": "Bon Jovi",
+          "title": "Born To Be My Baby",
+          "album": "New Jersey",
+          "key": "bon jovi|born to be my baby",
+          "videoId": "Ahf2B_eZUc4",
+          "duration": 329,
+          "kind": "Music video",
+          "year": 1988,
+          "durationEstimated": true
+        },
+        {
+          "id": "59462",
+          "playedAt": 1788998296000,
+          "artist": "Warrant",
+          "title": "Sometimes She Cries",
+          "album": "Dirty Rotten Filthy Stinking Rich",
+          "key": "warrant|sometimes she cries",
+          "videoId": "DAX20LoVgxE",
+          "duration": 252,
+          "kind": "Music video",
+          "year": 1990,
           "durationEstimated": true
         }
       ]
