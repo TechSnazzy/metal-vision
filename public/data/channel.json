@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": 1789117605384,
-  "sourceUpdatedAt": 1789117387000,
+  "updatedAt": 1789133433906,
+  "sourceUpdatedAt": 1789133374000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 334,
-    "matched": 2,
+    "observed": 338,
+    "matched": 3,
     "catalog": 14,
     "automaticMatching": false
   },
@@ -197,19 +197,6 @@
       "startsAt": 1789171200000,
       "tracks": [
         {
-          "id": "59847",
-          "playedAt": 1789035072000,
-          "artist": "Autograph",
-          "title": "Turn Up The Radio",
-          "album": "Sign In Please",
-          "key": "autograph|turn up the radio",
-          "videoId": "j8CcTYsMHYU",
-          "duration": 283,
-          "kind": "Music video",
-          "year": 1984,
-          "durationEstimated": true
-        },
-        {
           "id": "60262",
           "playedAt": 1789075778000,
           "artist": "Dokken",
@@ -220,6 +207,32 @@
           "duration": 245,
           "kind": "Music video",
           "year": 1985,
+          "durationEstimated": true
+        },
+        {
+          "id": "60768",
+          "playedAt": 1789125064000,
+          "artist": "Warrant",
+          "title": "Down Boys",
+          "album": "Dirty Rotten Filthy Stinking Rich",
+          "key": "warrant|down boys",
+          "videoId": "0RHENr6Xe70",
+          "duration": 247,
+          "kind": "Music video",
+          "year": 1989,
+          "durationEstimated": true
+        },
+        {
+          "id": "60857",
+          "playedAt": 1789133374000,
+          "artist": "Guns N' Roses",
+          "title": "November Rain",
+          "album": "Use Your Illusion I",
+          "key": "guns n roses|november rain",
+          "videoId": "8SbUC-UaAxE",
+          "duration": 557,
+          "kind": "Music video",
+          "year": 1992,
           "durationEstimated": true
         }
       ]
