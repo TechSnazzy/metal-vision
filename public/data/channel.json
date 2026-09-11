@@ -1,113 +1,16 @@
 {
   "version": 1,
-  "updatedAt": 1789077189177,
-  "sourceUpdatedAt": 1789077068000,
+  "updatedAt": 1789085167087,
+  "sourceUpdatedAt": 1789085022000,
   "source": "Hair Band Radio",
   "sourceUrl": "https://hairbandradio.com/",
   "stats": {
-    "observed": 339,
-    "matched": 4,
+    "observed": 340,
+    "matched": 2,
     "catalog": 14,
     "automaticMatching": false
   },
   "editions": [
-    {
-      "id": "2026-09-09",
-      "startsAt": 1788912000000,
-      "tracks": [
-        {
-          "id": "57706",
-          "playedAt": 1788829404000,
-          "artist": "Alice Cooper",
-          "title": "Poison",
-          "album": "Trash",
-          "key": "alice cooper|poison",
-          "videoId": "Qq4j1LtCdww",
-          "duration": 269,
-          "kind": "Music video",
-          "year": 1989,
-          "durationEstimated": true
-        },
-        {
-          "id": "57747",
-          "playedAt": 1788833531000,
-          "artist": "Firehouse",
-          "title": "All She Wrote",
-          "album": "Firehouse",
-          "key": "firehouse|all she wrote",
-          "videoId": "sidL7S09jsc",
-          "duration": 268,
-          "kind": "Music video",
-          "year": 1991,
-          "durationEstimated": true
-        },
-        {
-          "id": "57781",
-          "playedAt": 1788836809000,
-          "artist": "Bon Jovi",
-          "title": "Born To Be My Baby",
-          "album": "New Jersey",
-          "key": "bon jovi|born to be my baby",
-          "videoId": "Ahf2B_eZUc4",
-          "duration": 329,
-          "kind": "Music video",
-          "year": 1988,
-          "durationEstimated": true
-        },
-        {
-          "id": "57788",
-          "playedAt": 1788837620000,
-          "artist": "Cinderella",
-          "title": "Shake Me",
-          "album": "Night Songs",
-          "key": "cinderella|shake me",
-          "videoId": "ptPekKOigkQ",
-          "duration": 261,
-          "kind": "Music video",
-          "year": 1986,
-          "durationEstimated": true
-        },
-        {
-          "id": "57818",
-          "playedAt": 1788840723000,
-          "artist": "Warrant",
-          "title": "Sometimes She Cries",
-          "album": "Dirty Rotten Filthy Stinking Rich",
-          "key": "warrant|sometimes she cries",
-          "videoId": "DAX20LoVgxE",
-          "duration": 252,
-          "kind": "Music video",
-          "year": 1990,
-          "durationEstimated": true
-        },
-        {
-          "id": "57945",
-          "playedAt": 1788852686000,
-          "artist": "Autograph",
-          "title": "Turn Up The Radio",
-          "album": "Sign In Please",
-          "key": "autograph|turn up the radio",
-          "videoId": "j8CcTYsMHYU",
-          "duration": 283,
-          "kind": "Music video",
-          "year": 1984,
-          "durationEstimated": true
-        },
-        {
-          "id": "58477",
-          "playedAt": 1788903533000,
-          "artist": "Firehouse",
-          "title": "Love Of A Lifetime",
-          "album": "Firehouse",
-          "key": "firehouse|love of a lifetime",
-          "videoId": "5ETENrv8cnU",
-          "duration": 289,
-          "kind": "Music video",
-          "year": 1991,
-          "durationEstimated": true
-        }
-      ]
-    },
     {
       "id": "2026-09-10",
       "startsAt": 1788998400000,
@@ -261,6 +164,38 @@
           "year": 1990,
           "durationEstimated": true
         },
+        {
+          "id": "59847",
+          "playedAt": 1789035072000,
+          "artist": "Autograph",
+          "title": "Turn Up The Radio",
+          "album": "Sign In Please",
+          "key": "autograph|turn up the radio",
+          "videoId": "j8CcTYsMHYU",
+          "duration": 283,
+          "kind": "Music video",
+          "year": 1984,
+          "durationEstimated": true
+        },
+        {
+          "id": "60262",
+          "playedAt": 1789075778000,
+          "artist": "Dokken",
+          "title": "In My Dreams",
+          "album": "Under Lock and Key",
+          "key": "dokken|in my dreams",
+          "videoId": "locJVSj6jdU",
+          "duration": 245,
+          "kind": "Music video",
+          "year": 1985,
+          "durationEstimated": true
+        }
+      ]
+    },
+    {
+      "id": "2026-09-12",
+      "startsAt": 1789171200000,
+      "tracks": [
         {
           "id": "59847",
           "playedAt": 1789035072000,
