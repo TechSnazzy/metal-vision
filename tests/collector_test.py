@@ -1,4 +1,3 @@
-import datetime as dt
 import importlib.util
 from pathlib import Path
 import unittest
@@ -21,21 +20,11 @@ class CollectorTest(unittest.TestCase):
         self.assertEqual([s['id'] for s in songs],['1','3'])
         self.assertEqual(len(c.merge_history(songs,songs,4000)),2)
 
-    def test_live_picks_and_unmatched_songs(self):
-        songs=[dict(id='1',key='a|song',artist='A',title='Song'),dict(id='2',key='b|song',artist='B',title='Song')]
-        tracks=c.make_tracks(songs, {'a|song':dict(videoId='sidL7S09jsc',duration=300,kind='Live performance')})
-        self.assertEqual(len(tracks),1)
-        self.assertEqual(tracks[0]['kind'],'Live performance')
-
-    def test_editions_freeze_and_future_rebuilds(self):
-        now=dt.datetime(2026,9,6,12,tzinfo=c.UTC)
-        old=c.editions_for([],['old'],now)
-        new=c.editions_for(old,['new'],now)
-        self.assertEqual(new[0]['tracks'],['old'])
-        self.assertEqual(new[1]['tracks'],['new'])
-        tomorrow=c.editions_for(new,['newer'],now+dt.timedelta(days=1))
-        self.assertEqual(tomorrow[1]['tracks'],['new'])
-        self.assertEqual(tomorrow[2]['tracks'],['newer'])
+    def test_catalog_entry_accepts_only_playable_videos(self):
+        entry = c.catalog_entry('a|song', dict(artist='A', title='Song', videoId='sidL7S09jsc', duration=300, kind='Live performance'))
+        self.assertEqual(entry['kind'], 'Live performance')
+        self.assertIsNone(c.catalog_entry('b|song', dict(artist='B', title='Song', videoId='not-a-video-id', duration=300)))
+        self.assertIsNone(c.catalog_entry('c|song', dict(artist='C', title='Song', videoId='sidL7S09jsc', duration=10)))
 
     def test_video_matching_does_not_accept_reactions(self):
         song={'artist':'Firehouse','title':'All She Wrote'}

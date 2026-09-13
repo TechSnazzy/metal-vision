@@ -2,6 +2,7 @@ import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
 const browser = await chromium.launch({executablePath:process.env.CHROMIUM_PATH || '/usr/bin/chromium',headless:true,args:['--no-sandbox']});
 const base = process.env.TEST_URL || 'http://127.0.0.1:8080/';
+const statusFixture = (artist, title) => JSON.stringify({icestats:{source:{title:`${artist} - ${title}`,metadata_updated:'01/Jan/2026:00:00:00 +0000'}}});
 try {
   for (const viewport of [{width:1440,height:1100},{width:390,height:844},{width:320,height:740}]) {
     const page = await browser.newPage({viewport});
@@ -14,9 +15,10 @@ try {
         pauseVideo(){this.events.onStateChange({data:2});}stopVideo(){}seekTo(t){this.time=t;}
       }};window.onYouTubeIframeAPIReady();
     `}));
+    // No song currently matches the tiny catalog, so the app should fall back to a favorites/catalog mix.
+    await page.route('https://cheetah.streemlion.com:2005/status-json.xsl*',route=>route.fulfill({contentType:'application/json',body:statusFixture('Nobody', 'Unmatched Song')}));
     await page.goto(base);
     await page.locator('#tune:not([disabled])').waitFor();
-    assert.ok(await page.locator('#up-next li').count()>0);
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
     await page.screenshot({path:`/tmp/metal-vision-${viewport.width}.png`,fullPage:true});
     await page.locator('#tune').click();
@@ -27,6 +29,14 @@ try {
     const before = await page.evaluate(()=>window.testPlayer.video.videoId);
     await page.locator('#next').click();
     assert.notEqual(await page.evaluate(()=>window.testPlayer.video.videoId),before);
+    await page.locator('#star').click();
+    assert.equal(await page.locator('#star').getAttribute('aria-pressed'),'true');
+    assert.ok(await page.locator('#favorites li').count()>0);
+    // A matching live song should cut over to it immediately.
+    await page.route('https://cheetah.streemlion.com:2005/status-json.xsl*',route=>route.fulfill({contentType:'application/json',body:statusFixture('Firehouse', 'All She Wrote')}));
+    await page.evaluate(()=>window.dispatchEvent(new Event('online')));
+    await page.waitForFunction(()=>window.testPlayer?.video?.videoId==='sidL7S09jsc');
+    assert.match(await page.locator('#playing-label').innerText(),/LIVE MATCH/);
     await page.evaluate(()=>window.testPlayer.events.onError({data:150}));
     assert.match(await page.locator('#message').innerText(),/unavailable/);
     await page.evaluate(()=>window.testPlayer.events.onAutoplayBlocked());
@@ -41,7 +51,7 @@ try {
     await page.keyboard.press('Escape');
     assert.equal(await page.locator('#about').isVisible(),false);
     assert.deepEqual(errors,[]);
-    console.log(`PASS ${viewport.width}px: layout, tune, restart, next, unavailable clip, autoplay, theater, power, about`);
+    console.log(`PASS ${viewport.width}px: layout, tune, restart, next, star, live match cutover, unavailable clip, autoplay, theater, power, about`);
     await page.close();
   }
 } finally {await browser.close();}

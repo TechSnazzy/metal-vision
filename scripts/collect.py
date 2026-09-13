@@ -1,4 +1,4 @@
-"""Station history -> ordered video editions. No media is downloaded or stored."""
+"""Station history -> matched video catalog. No media is downloaded or stored."""
 import argparse
 import datetime as dt
 import json
@@ -145,33 +145,16 @@ def discover(songs, catalog, api_key, now):
     return cache
 
 
-def make_tracks(songs, catalog):
-    tracks = []
-    for song in songs:
-        match = catalog.get(song['key'])
-        if not match or not re.fullmatch(r'[A-Za-z0-9_-]{11}', match.get('videoId', '')):
-            continue
-        duration = match.get('duration', 0)
-        if not isinstance(duration, (int, float)) or not 60 <= duration <= 1800:
-            continue
-        tracks.append({**song, 'videoId': match['videoId'], 'duration': duration,
-                       'kind': match.get('kind', 'Music video'),
-                       'year': match.get('year', ''),
-                       'durationEstimated': match.get('durationEstimated', False)})
-    return tracks
-
-
-def editions_for(old, tracks, now):
-    today = now.date()
-    # Freeze today's program. Changes become tomorrow's program, avoiding jumps
-    # every time a fresh history snapshot is published.
-    editions = [e for e in old if today - dt.timedelta(days=1) <= dt.date.fromisoformat(e['id']) <= today]
-    for date in [today, today + dt.timedelta(days=1)]:
-        date_id = date.isoformat()
-        if tracks and not any(e['id'] == date_id for e in editions):
-            editions.append({'id': date_id, 'startsAt': int(dt.datetime.combine(date, dt.time(), UTC).timestamp() * 1000),
-                             'tracks': tracks})
-    return editions
+def catalog_entry(entry_key, entry):
+    video_id = entry.get('videoId', '')
+    if not re.fullmatch(r'[A-Za-z0-9_-]{11}', video_id):
+        return None
+    duration = entry.get('duration', 0)
+    if not isinstance(duration, (int, float)) or not 60 <= duration <= 1800:
+        return None
+    return {'key': entry_key, 'artist': entry.get('artist', ''), 'title': entry.get('title', ''),
+            'videoId': video_id, 'duration': duration, 'kind': entry.get('kind', 'Music video'),
+            'year': entry.get('year', ''), 'durationEstimated': bool(entry.get('durationEstimated', False))}
 
 
 def collect(fixture=None):
@@ -188,26 +171,25 @@ def collect(fixture=None):
     catalog = {key(v['artist'], v['title']): v for v in raw_catalog}
     automatic = discover(history, catalog, os.environ.get('YOUTUBE_API_KEY'), now)
     catalog = {**automatic, **catalog}  # Human-reviewed choices always win.
-    # Last day of observed music, retaining real repeats and chronological order.
-    recent = [s for s in history if s['playedAt'] > now_ms - 86400000]
-    tracks = make_tracks(recent, catalog)
-    path = ROOT / 'public/data/channel.json'
-    previous = read(path, {'editions': []})
-    editions = editions_for(previous['editions'], tracks, now)
-    if not editions:
+    entries = [e for e in (catalog_entry(k, v) for k, v in catalog.items()) if e]
+    if not entries:
         raise ValueError('No playable matches yet. Add reviewed videos to data/catalog.json.')
+    # Last day of observed music, for freshness stats only; playback matches live, not a schedule.
+    recent = [s for s in history if s['playedAt'] > now_ms - 86400000]
+    matched_recent = sum(1 for s in recent if catalog.get(s['key'], {}).get('videoId'))
     write(ROOT / 'data/history.json', history)
     unknown = {s['key']: {'artist': s['artist'], 'title': s['title'],
                            'search': 'https://www.youtube.com/results?search_query=' + urllib.parse.quote(s['artist'] + ' ' + s['title'])}
                for s in recent if not catalog.get(s['key'], {}).get('videoId')}
     write(ROOT / 'data/unmatched.json', list(unknown.values()))
-    channel = {'version': 1, 'updatedAt': now_ms, 'sourceUpdatedAt': max(s['playedAt'] for s in incoming),
-               'source': 'Hair Band Radio', 'sourceUrl': 'https://hairbandradio.com/',
-               'stats': {'observed': len(recent), 'matched': len(tracks), 'catalog': len(raw_catalog),
-                         'automaticMatching': bool(os.environ.get('YOUTUBE_API_KEY'))},
-               'editions': editions}
-    write(path, channel)
-    print(f'Collected {len(history)} plays; {len(tracks)} matched in the latest day; {len(unknown)} await review.')
+    guide = {'version': 2, 'updatedAt': now_ms, 'sourceUpdatedAt': max(s['playedAt'] for s in incoming),
+             'source': 'Hair Band Radio', 'sourceUrl': 'https://hairbandradio.com/',
+             'stats': {'observedRecent': len(recent), 'matchedRecent': matched_recent,
+                       'catalogSize': len(raw_catalog), 'automaticMatching': bool(os.environ.get('YOUTUBE_API_KEY'))},
+             'tracks': entries}
+    write(ROOT / 'public/data/catalog.json', guide)
+    print(f'Collected {len(history)} plays; catalog has {len(entries)} playable videos; '
+          f'{matched_recent}/{len(recent)} of the last day matched live; {len(unknown)} await review.')
 
 
 if __name__ == '__main__':

@@ -1,27 +1,34 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { slotAt, editionAt, validateChannel, upcoming } from '../public/channel.js';
-const tracks = [{videoId:'sidL7S09jsc',artist:'Firehouse',title:'All She Wrote',duration:240},{videoId:'0RHENr6Xe70',artist:'Warrant',title:'Down Boys',duration:180}];
-const edition = {id:'2026-09-06',startsAt:1000000,tracks};
-test('tune-in uses a shared clock including exact boundaries and repeats', () => {
-  assert.deepEqual(slotAt(edition,1000000), {index:0,offset:0,track:tracks[0]});
-  assert.equal(slotAt(edition,1240000).index,1);
-  assert.equal(slotAt(edition,1250000).offset,10);
-  assert.equal(slotAt(edition,1420000).index,0);
-  assert.equal(slotAt(edition,1000000+86400000*400).offset,60);
+import { validateCatalog, matchKey, parseNowPlaying, parseIcecastDate, findTrack } from '../public/channel.js';
+
+const tracks = [
+  {key: 'firehouse|all she wrote', videoId: 'sidL7S09jsc', artist: 'Firehouse', title: 'All She Wrote', duration: 268, kind: 'Music video'},
+  {key: 'warrant|down boys', videoId: '0RHENr6Xe70', artist: 'Warrant', title: 'Down Boys', duration: 247, kind: 'Music video'},
+];
+const catalog = {version: 2, updatedAt: 1000, tracks};
+
+test('now-playing titles split into artist and title and normalize like the collector', () => {
+  assert.deepEqual(parseNowPlaying('Firehouse - All She Wrote (91)'), {artist: 'Firehouse', title: 'All She Wrote', key: 'firehouse|all she wrote'});
+  assert.equal(matchKey('Mötley Crüe', 'Home Sweet Home [Live] (99)'), matchKey('Motley Crue', 'Home Sweet Home'));
+  assert.equal(parseNowPlaying('Station ID'), null);
 });
-test('future editions never replace current programming early', () => {
-  const tomorrow={...edition,id:'tomorrow',startsAt:2000000};
-  assert.equal(editionAt({editions:[tomorrow,edition]},1999999).id,edition.id);
-  assert.equal(editionAt({editions:[edition,tomorrow]},2000000).id,'tomorrow');
+
+test('icecast metadata timestamps parse to the correct UTC instant', () => {
+  assert.equal(parseIcecastDate('13/Sep/2026:04:50:10 +0000'), Date.UTC(2026, 8, 13, 4, 50, 10));
+  assert.equal(parseIcecastDate('13/Sep/2026:04:50:10 -0500'), Date.UTC(2026, 8, 13, 9, 50, 10));
+  assert.equal(parseIcecastDate('garbage'), null);
 });
-test('long outage keeps the last usable edition playing', () => {
-  assert.equal(editionAt({editions:[edition]},9999999999999).id,edition.id);
-  assert.equal(upcoming(edition,1)[0].index,0);
+
+test('a live song only swaps the video when it actually matches the catalog', () => {
+  assert.equal(findTrack(catalog, 'firehouse|all she wrote').videoId, 'sidL7S09jsc');
+  assert.equal(findTrack(catalog, 'motley crue|wild side'), null);
 });
-test('bad guide and zero-length videos are rejected before replacing cached guide', () => {
-  assert.throws(()=>validateChannel({version:1,updatedAt:0,editions:[]}));
-  assert.throws(()=>validateChannel({version:1,updatedAt:0,editions:[{...edition,tracks:[{...tracks[0],duration:0}]}]}));
-  assert.throws(()=>validateChannel({version:1,updatedAt:0,editions:[{...edition,tracks:[{...tracks[0],videoId:'<script>'}]}]}));
-  assert.ok(validateChannel({version:1,updatedAt:0,editions:[edition]}));
+
+test('bad or empty catalogs are rejected before replacing a cached one', () => {
+  assert.throws(() => validateCatalog({version: 2, updatedAt: 0, tracks: []}));
+  assert.throws(() => validateCatalog({version: 1, updatedAt: 0, tracks}));
+  assert.throws(() => validateCatalog({version: 2, updatedAt: 0, tracks: [{...tracks[0], duration: 0}]}));
+  assert.throws(() => validateCatalog({version: 2, updatedAt: 0, tracks: [{...tracks[0], videoId: '<script>'}]}));
+  assert.ok(validateCatalog(catalog));
 });

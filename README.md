@@ -8,29 +8,36 @@ Watch: https://techsnazzy.github.io/metal-vision/
 
 ## How it works
 
-Hair Band Radio's **real recorded song order** is the curator. A short GitHub
-Actions job reads its public 500-entry history every 30 minutes. It strips
-station IDs, normalizes artist/title/year labels, and matches songs against a
-reviewed video catalog. Repeated broadcasts stay repeated; order is preserved.
-Music videos and reviewed live performances are both welcome.
+Metal Vision watches Hair Band Radio's **live stream metadata** directly from
+your browser (the same public status feed Metal Radio's now-playing display
+uses) and checks roughly every 15 seconds for a song change. When the current
+song matches a video in the reviewed catalog, it loads that video and jumps to
+the same point the song is actually at, so it plays in step with the radio.
 
-The resulting daily edition loops continuously. A shared UTC clock lets you
-tune into the approximate current video position. Today's edition is frozen;
-fresh collected songs prepare tomorrow's edition. After joining, videos play
-through to their actual end, including longer live performances. Ads and pauses
-can cause drift; **Tune live** explicitly catches you up. This is a video rotation
-based on recorded radio programming, not synchronized simulcasting.
+Most songs in the station's rotation don't have a reviewed video yet — that's
+expected, not a bug. When there's no match, Metal Vision plays from your
+**favorites** (saved with the ☆ SAVE button) or, if you haven't saved any yet,
+a random pick from the small reviewed catalog, cycling until a matching live
+song comes on. The "Hair Band Radio now" ticker always shows the real live
+song, whether or not a video is currently matched to it, so you always know
+what's actually playing.
 
-GitHub Pages serves only `public/`. No backend server or media downloads. If the
-station or scheduled job is unavailable, the last saved edition continues to loop.
-GitHub Actions schedules are best effort; long interruptions exceeding the
-station's history window can lose plays. The About panel reports freshness.
+A separate GitHub Actions job reads the station's public history every 30
+minutes purely to grow the catalog and report freshness stats (how much of the
+last day's plays had a match) — it has no effect on what plays moment to
+moment. That's driven entirely by the live feed above.
+
+GitHub Pages serves only `public/`. No backend server or media downloads.
 
 ## Playback
 
 - Click **Tune in** to start; browsers may also require play inside YouTube.
-- Restart, next, upcoming-video selection, theater layout, and YouTube's native
-  controls/fullscreen are available.
+- **Tune live** re-checks the station right now and jumps straight to it.
+- **Next** skips to another favorite/catalog pick — only while playing filler
+  (there's no "next" when a video is actually matched to the live song).
+- **☆ SAVE** stars whatever's currently playing so it's available as filler.
+- Restart, theater layout, and YouTube's native controls/fullscreen are
+  available.
 - Videos pause when the page is hidden. This isn't background YouTube playback.
 - Unavailable/embedding-disabled videos are skipped with a bounded retry path.
 - YouTube serves all video/audio and controls ads and Premium recognition.
@@ -50,9 +57,11 @@ npm run dev
 npm run test:browser
 ```
 
-Browser tests use a mocked YouTube API to exercise controls/errors, never to claim
-real video playback works. Real embed availability must also be checked manually.
-`CHROMIUM_PATH` overrides `/usr/bin/chromium`; `TEST_URL` overrides localhost:8080.
+Browser tests mock both the YouTube API and the station status feed to
+exercise controls/errors/live-match cutover deterministically, never to claim
+real video playback works. Real embed availability must also be checked
+manually. `CHROMIUM_PATH` overrides `/usr/bin/chromium`; `TEST_URL` overrides
+localhost:8080.
 
 ## Programming and live performances
 
@@ -68,9 +77,10 @@ the actual YouTube end event always controls advancement. Live/acoustic radio
 tags are stripped only for matching, so a different performance can be chosen.
 Catalog selection can therefore pair a radio studio track with a live video.
 
-`data/unmatched.json` provides YouTube search links for unpaired songs. Verify
-the artist/song and visual quality, then add the best available video or live
-performance. `python3 scripts/verify_catalog.py` checks oEmbed title and creator.
+`data/unmatched.json` lists recently-observed songs with no match yet, with
+YouTube search links. Verify the artist/song and visual quality, then add the
+best available video or live performance. `python3 scripts/verify_catalog.py`
+checks oEmbed title and creator.
 
 ```sh
 npm run collect
@@ -79,10 +89,8 @@ git commit -m 'Update video programming'
 git push
 ```
 
-On first collection, today's edition is seeded. Later changes affect tomorrow,
-not the currently airing edition. To explicitly rebuild an unpublished preview,
-remove the preview edition from `public/data/channel.json` before collecting;
-do not reset a live edition while viewers are watching it.
+New catalog entries take effect immediately in the live app — the next time
+that song comes on the radio, Metal Vision will have a match for it.
 
 ## Optional automatic discovery
 
@@ -114,4 +122,3 @@ avoid competing deployments. Site navigation lives separately in
 GitHub may disable scheduled workflows after 60 days without repository activity;
 successful collector commits normally keep this active. If collection stops,
 inspect Actions and run **Update channel and publish** manually.
-
