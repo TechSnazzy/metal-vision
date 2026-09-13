@@ -223,10 +223,15 @@ function currentOffset() {
 async function tuneLive() {
   if (!catalog) await loadCatalog();
   if (!catalog) return;
-  await pollLive();
+  // Background polling (every POLL_MS, plus on boot) keeps nowTrack fresh, so the
+  // common case can jump straight into start() without an awaited network call in
+  // between the click and loadVideoById — an intervening await here would cost the
+  // browser's "this was just clicked" autoplay allowance and silently block playback.
+  if (!current()) await pollLive();
   if (!current()) { message('No videos to play yet. Check back soon.'); return; }
   failed.clear();
   await start(currentOffset());
+  pollLive();
 }
 
 function advance() {
