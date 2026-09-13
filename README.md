@@ -15,12 +15,13 @@ song matches a video in the reviewed catalog, it loads that video and jumps to
 the same point the song is actually at, so it plays in step with the radio.
 
 Most songs in the station's rotation don't have a reviewed video yet — that's
-expected, not a bug. When there's no match, Metal Vision plays from your
-**favorites** (saved with the ☆ SAVE button) or, if you haven't saved any yet,
-a random pick from the small reviewed catalog, cycling until a matching live
-song comes on. The "Hair Band Radio now" ticker always shows the real live
-song, whether or not a video is currently matched to it, so you always know
-what's actually playing.
+expected, not a bug. When there's no match, Metal Vision plays a random pick
+from the rest of the reviewed catalog, cycling until a matching live song
+comes on. **Favorites** (saved with the ☆ SAVE button) are a last resort, not
+the default filler — they only get pulled in once every other catalog video
+has failed to play in the current session. The "Hair Band Radio now" ticker
+always shows the real live song, whether or not a video is currently matched
+to it, so you always know what's actually playing.
 
 A separate GitHub Actions job reads the station's public history every 30
 minutes purely to grow the catalog and report freshness stats (how much of the

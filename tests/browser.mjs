@@ -32,11 +32,18 @@ try {
     await page.locator('#star').click();
     assert.equal(await page.locator('#star').getAttribute('aria-pressed'),'true');
     assert.ok(await page.locator('#favorites li').count()>0);
+    // Starring the current filler must not trap playback on it: with other catalog
+    // videos still available, favorites should never come back as the next pick.
+    const starred = await page.evaluate(()=>window.testPlayer.video.videoId);
+    for (let i = 0; i < 5; i++) {
+      await page.locator('#next').click();
+      assert.notEqual(await page.evaluate(()=>window.testPlayer.video.videoId), starred);
+    }
     // A matching live song should cut over to it immediately.
     await page.route('https://cheetah.streemlion.com:2005/status-json.xsl*',route=>route.fulfill({contentType:'application/json',body:statusFixture('Firehouse', 'All She Wrote')}));
     await page.evaluate(()=>window.dispatchEvent(new Event('online')));
-    await page.waitForFunction(()=>window.testPlayer?.video?.videoId==='sidL7S09jsc');
-    assert.match(await page.locator('#playing-label').innerText(),/LIVE MATCH/);
+    await page.locator('#playing-label').filter({hasText: 'LIVE MATCH'}).waitFor();
+    assert.equal(await page.evaluate(()=>window.testPlayer.video.videoId),'sidL7S09jsc');
     await page.evaluate(()=>window.testPlayer.events.onError({data:150}));
     assert.match(await page.locator('#message').innerText(),/unavailable/);
     await page.evaluate(()=>window.testPlayer.events.onAutoplayBlocked());

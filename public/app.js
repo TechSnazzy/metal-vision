@@ -27,9 +27,12 @@ function saveStarred() { try { localStorage.setItem(STAR_KEY, JSON.stringify([..
 
 function pickFiller() {
   if (!catalog) return null;
-  const starredTracks = catalog.tracks.filter(t => starred.has(t.videoId) && !failed.has(t.videoId));
-  const pool = (starredTracks.length ? starredTracks : catalog.tracks.filter(t => !failed.has(t.videoId)));
-  if (!pool.length) return null;
+  const usable = catalog.tracks.filter(t => !failed.has(t.videoId));
+  if (!usable.length) return null;
+  // Favorites are a last resort: normal filler draws from the rest of the catalog,
+  // and only dips into starred tracks once every non-starred one is unplayable.
+  const nonFavorites = usable.filter(t => !starred.has(t.videoId));
+  const pool = nonFavorites.length ? nonFavorites : usable;
   const candidates = pool.length > 1 ? pool.filter(t => t.videoId !== nowTrack?.videoId) : pool;
   return candidates[Math.floor(Math.random() * candidates.length)];
 }
@@ -95,7 +98,7 @@ function updateOnAir() {
   $('live-ticker').textContent = live ? `Hair Band Radio now: ${live.artist} – ${live.title}` : 'THE CHANNEL NEVER CLOCKS OUT';
   if (!desired) { $('playing-label').textContent = 'ON THE CHANNEL'; return; }
   $('playing-label').textContent = mode === 'live' ? 'ON AIR · LIVE MATCH'
-    : mode === 'filler' ? 'ON AIR · FAVORITES MIX' : 'ON AIR';
+    : mode === 'filler' ? 'ON AIR · CATALOG MIX' : 'ON AIR';
 }
 
 function updateControls() {
@@ -110,7 +113,7 @@ function feedStatus() {
   if (live) {
     matchNote = findTrack(catalog, live.key)
       ? 'This song is matched — you’re watching it live.'
-      : 'No matched video for the current song yet; playing a favorites mix until one comes on.';
+      : 'No matched video for the current song yet; playing the catalog until one comes on.';
   }
   const staleness = [
     liveFetchFailed ? ' Station status is temporarily unreachable; showing the last known song.' : '',
