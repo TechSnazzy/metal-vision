@@ -12,7 +12,7 @@ try {
         constructor(id,opts){this.events=opts.events;this.time=0;this.el=document.createElement('iframe');this.el.id=id;this.el.title='Test video';document.getElementById(id).replaceWith(this.el);window.testPlayer=this;setTimeout(()=>this.events.onReady(),10);}
         loadVideoById(v){this.video=v;this.time=v.startSeconds;this.events.onStateChange({data:1});}
         getIframe(){return this.el;}getDuration(){return 300;}getCurrentTime(){return this.time;}
-        pauseVideo(){this.events.onStateChange({data:2});}stopVideo(){}seekTo(t){this.time=t;}
+        pauseVideo(){this.events.onStateChange({data:2});}playVideo(){this.events.onStateChange({data:1});}stopVideo(){}seekTo(t){this.time=t;}
       }};window.onYouTubeIframeAPIReady();
     `}));
     // No song currently matches the tiny catalog, so the app should fall back to a favorites/catalog mix.
@@ -41,6 +41,9 @@ try {
     assert.match(await page.locator('#message').innerText(),/unavailable/);
     await page.evaluate(()=>window.testPlayer.events.onAutoplayBlocked());
     assert.match(await page.locator('#message').innerText(),/Press play/);
+    assert.equal(await page.locator('#resume-play').isVisible(),true);
+    await page.locator('#resume-play').click();
+    assert.equal(await page.locator('#resume-play').isVisible(),false);
     await page.locator('#theater').click();
     assert.equal(await page.locator('#theater').getAttribute('aria-pressed'),'true');
     await page.locator('#theater').click();

@@ -14,6 +14,10 @@ let mode = 'idle';      // 'live' (nowTrack matches the live song) | 'filler' (f
 let starred = new Set();
 
 function message(text = '') { $('message').textContent = text; }
+function showResumePrompt(show) {
+  $('resume-play').hidden = !show;
+  $('screen').classList.toggle('stalled', show);
+}
 function current() { return nowTrack; }
 
 function loadStarred() {
@@ -165,7 +169,7 @@ async function start(offset) {
           onReady: () => { ready = true; player.getIframe().title = 'Metal Vision YouTube video player'; if (desired) loadCurrent(pendingOffset); },
           onStateChange: onState,
           onError: onError,
-          onAutoplayBlocked: () => { clearTimeout(loadTimer); message('Press play in the video to keep watching.'); }
+          onAutoplayBlocked: () => { clearTimeout(loadTimer); message('Press play to keep watching.'); showResumePrompt(true); }
         }
       });
       armLoadTimer();
@@ -184,6 +188,7 @@ function armLoadTimer() {
 function loadCurrent(offset = 0) {
   if (!ready || !desired || !current()) return;
   message(); showTrack(); updateOnAir(); $('elapsed').textContent = '— / —'; $('progress').style.width = '0%';
+  showResumePrompt(false);
   player.loadVideoById({videoId: current().videoId, startSeconds: Math.max(0, Math.min(offset, current().duration - 2))});
   if (document.hidden) player.pauseVideo();
   armLoadTimer();
@@ -194,6 +199,7 @@ function stop() {
   if (ready) player.stopVideo();
   $('standby').hidden = false; document.body.classList.remove('playing');
   $('intro-status').textContent = 'The channel’s still rolling. Join whenever you’re ready.';
+  showResumePrompt(false);
   ['power','restart','next','live'].forEach(id => $(id).disabled = true);
   updateOnAir(); updateControls(); message();
 }
@@ -251,7 +257,7 @@ function onState(event) {
   const state = event.data;
   document.body.classList.toggle('playing', state === 1);
   if (state === 1) {
-    clearTimeout(loadTimer); failed.clear(); message();
+    clearTimeout(loadTimer); failed.clear(); message(); showResumePrompt(false);
     if (document.hidden) player.pauseVideo();
   }
   if (state === 2) { clearTimeout(loadTimer); message('Paused. Press play in the video, or tune live to catch up.'); }
@@ -299,6 +305,7 @@ $('power').addEventListener('click', stop);
 $('next').addEventListener('click', () => { if (mode === 'filler') { failed.clear(); joinFiller(); } });
 $('restart').addEventListener('click', () => loadCurrent(0));
 $('star').addEventListener('click', toggleStar);
+$('resume-play').addEventListener('click', () => { showResumePrompt(false); if (ready) player.playVideo(); });
 $('theater').addEventListener('click', () => {
   const on = document.body.classList.toggle('theater'); $('theater').setAttribute('aria-pressed', String(on));
 });
