@@ -1,213 +1,5 @@
 [
   {
-    "id": "62025",
-    "playedAt": 1789245287000,
-    "artist": "Giant",
-    "title": "I'll See You In My Dreams",
-    "album": "Last of the Runaways",
-    "key": "giant|i ll see you in my dreams"
-  },
-  {
-    "id": "62028",
-    "playedAt": 1789245541000,
-    "artist": "Kix",
-    "title": "Blow My Fuse",
-    "album": "Blow My Fuse",
-    "key": "kix|blow my fuse"
-  },
-  {
-    "id": "62029",
-    "playedAt": 1789245754000,
-    "artist": "House Of Lords",
-    "title": "I Wanna Be Loved",
-    "album": "House Of Lords",
-    "key": "house of lords|i wanna be loved"
-  },
-  {
-    "id": "62031",
-    "playedAt": 1789245953000,
-    "artist": "Bruce Dickinson",
-    "title": "Tattooed Millionaire",
-    "album": "Tattooed Millionaire",
-    "key": "bruce dickinson|tattooed millionaire"
-  },
-  {
-    "id": "62035",
-    "playedAt": 1789246224000,
-    "artist": "Van Halen",
-    "title": "Hot For Teacher",
-    "album": "1984",
-    "key": "van halen|hot for teacher"
-  },
-  {
-    "id": "62036",
-    "playedAt": 1789246505000,
-    "artist": "Vince Neil",
-    "title": "Sister Of Pain",
-    "album": "Exposed",
-    "key": "vince neil|sister of pain"
-  },
-  {
-    "id": "62039",
-    "playedAt": 1789246791000,
-    "artist": "Whitesnake",
-    "title": "Bad Boys",
-    "album": "Whitesnake",
-    "key": "whitesnake|bad boys"
-  },
-  {
-    "id": "62042",
-    "playedAt": 1789247030000,
-    "artist": "Guns N' Roses",
-    "title": "Don't Cry",
-    "album": "Use Your Illusion I",
-    "key": "guns n roses|don t cry"
-  },
-  {
-    "id": "62048",
-    "playedAt": 1789247438000,
-    "artist": "Aerosmith",
-    "title": "Dude (Looks Like A Lady)",
-    "album": "Permanent Vacation",
-    "key": "aerosmith|dude looks like a lady"
-  },
-  {
-    "id": "62051",
-    "playedAt": 1789247687000,
-    "artist": "Michael Bolton",
-    "title": "Everybody's Crazy",
-    "album": "Everybody's Crazy",
-    "key": "michael bolton|everybody s crazy"
-  },
-  {
-    "id": "62053",
-    "playedAt": 1789247959000,
-    "artist": "Europe",
-    "title": "Prisoners In Paradise",
-    "album": "Prisoners in Paradise",
-    "key": "europe|prisoners in paradise"
-  },
-  {
-    "id": "62056",
-    "playedAt": 1789248222000,
-    "artist": "Arcade",
-    "title": "Cry No More",
-    "album": "Arcade",
-    "key": "arcade|cry no more"
-  },
-  {
-    "id": "62059",
-    "playedAt": 1789248546000,
-    "artist": "Hardline",
-    "title": "Hot Cherie",
-    "album": "Double Eclipse",
-    "key": "hardline|hot cherie"
-  },
-  {
-    "id": "62061",
-    "playedAt": 1789248819000,
-    "artist": "Bon Jovi",
-    "title": "The Hardest Part Is The Night",
-    "album": "7800° Fahrenheit",
-    "key": "bon jovi|the hardest part is the night"
-  },
-  {
-    "id": "62064",
-    "playedAt": 1789249064000,
-    "artist": "XYZ",
-    "title": "Face Down In The Gutter",
-    "album": "Hungry",
-    "key": "xyz|face down in the gutter"
-  },
-  {
-    "id": "62066",
-    "playedAt": 1789249313000,
-    "artist": "Van Halen",
-    "title": "Love Walks In",
-    "album": "5150",
-    "key": "van halen|love walks in"
-  },
-  {
-    "id": "62072",
-    "playedAt": 1789249624000,
-    "artist": "Great White",
-    "title": "Once Bitten Twice Shy",
-    "album": "... Twice Shy",
-    "key": "great white|once bitten twice shy"
-  },
-  {
-    "id": "62073",
-    "playedAt": 1789249925000,
-    "artist": "Poison",
-    "title": "Stand",
-    "album": "Native Tongue",
-    "key": "poison|stand"
-  },
-  {
-    "id": "62076",
-    "playedAt": 1789250244000,
-    "artist": "Quiet Riot",
-    "title": "Metal Health (Bang Your Head) [Live]",
-    "album": "Live At The US Festival, 1983 (Live From San Bernadino/1983)",
-    "key": "quiet riot|metal health bang your head"
-  },
-  {
-    "id": "62080",
-    "playedAt": 1789250566000,
-    "artist": "Gomagog",
-    "title": "I Will Be There",
-    "album": "Gogmagog EP",
-    "key": "gomagog|i will be there"
-  },
-  {
-    "id": "62083",
-    "playedAt": 1789250851000,
-    "artist": "Alice Cooper",
-    "title": "Hey Stoopid",
-    "album": "Hey Stoopid",
-    "key": "alice cooper|hey stoopid"
-  },
-  {
-    "id": "62085",
-    "playedAt": 1789251104000,
-    "artist": "Rough House",
-    "title": "Tonite",
-    "album": "Rough House",
-    "key": "rough house|tonite"
-  },
-  {
-    "id": "62088",
-    "playedAt": 1789251314000,
-    "artist": "Danger Danger",
-    "title": "Don't Walk Away",
-    "album": "Danger Danger",
-    "key": "danger danger|don t walk away"
-  },
-  {
-    "id": "62090",
-    "playedAt": 1789251584000,
-    "artist": "Europe",
-    "title": "Tomorrow",
-    "album": "Out Of This World",
-    "key": "europe|tomorrow"
-  },
-  {
-    "id": "62094",
-    "playedAt": 1789251765000,
-    "artist": "McAuley Schenker Group",
-    "title": "Love Is Not A Game",
-    "album": "Perfect Timing",
-    "key": "mcauley schenker group|love is not a game"
-  },
-  {
-    "id": "62096",
-    "playedAt": 1789252006000,
-    "artist": "Def Leppard",
-    "title": "Gods Of War",
-    "album": "Hysteria",
-    "key": "def leppard|gods of war"
-  },
-  {
     "id": "62100",
     "playedAt": 1789252395000,
     "artist": "Femme Fatale",
@@ -19110,5 +18902,229 @@
     "title": "Poison Ivy",
     "album": "Wake Me When It's Over",
     "key": "faster pussycat|poison ivy"
+  },
+  {
+    "id": "68346",
+    "playedAt": 1789850331000,
+    "artist": "Motley Crue",
+    "title": "Keep Your Eye On The Money",
+    "album": "Theatre of Pain",
+    "key": "motley crue|keep your eye on the money"
+  },
+  {
+    "id": "68348",
+    "playedAt": 1789850583000,
+    "artist": "Guns N' Roses",
+    "title": "Patience",
+    "album": "G N' R Lies",
+    "key": "guns n roses|patience"
+  },
+  {
+    "id": "68351",
+    "playedAt": 1789850932000,
+    "artist": "Cinderella",
+    "title": "Shelter Me",
+    "album": "Heartbreak Station",
+    "key": "cinderella|shelter me"
+  },
+  {
+    "id": "68354",
+    "playedAt": 1789851203000,
+    "artist": "L.A. Guns",
+    "title": "No Mercy",
+    "album": "L.A. Guns",
+    "key": "l a guns|no mercy"
+  },
+  {
+    "id": "68356",
+    "playedAt": 1789851369000,
+    "artist": "Ozzy Osbourne",
+    "title": "You Looking At Me, Looking At You",
+    "album": "Blizzard of Ozz (Expanded Edition)",
+    "key": "ozzy osbourne|you looking at me looking at you"
+  },
+  {
+    "id": "68362",
+    "playedAt": 1789851613000,
+    "artist": "Ratt",
+    "title": "Lovin' You Is A Dirty Job",
+    "album": "Detonator",
+    "key": "ratt|lovin you is a dirty job"
+  },
+  {
+    "id": "68364",
+    "playedAt": 1789851796000,
+    "artist": "Lillian Axe",
+    "title": "Dream Of A Lifetime",
+    "album": "Lillian Axe ",
+    "key": "lillian axe|dream of a lifetime"
+  },
+  {
+    "id": "68366",
+    "playedAt": 1789852023000,
+    "artist": "Van Halen",
+    "title": "Finish What Ya Started",
+    "album": "OU812",
+    "key": "van halen|finish what ya started"
+  },
+  {
+    "id": "68369",
+    "playedAt": 1789852273000,
+    "artist": "Def Leppard",
+    "title": "When Love And Hate Collide",
+    "album": "Vault: Def Leppard Greatest Hits (1980–1995)",
+    "key": "def leppard|when love and hate collide"
+  },
+  {
+    "id": "68374",
+    "playedAt": 1789852619000,
+    "artist": "White Lion",
+    "title": "Tell Me",
+    "album": "Pride",
+    "key": "white lion|tell me"
+  },
+  {
+    "id": "68376",
+    "playedAt": 1789852887000,
+    "artist": "Vinnie Vincent Invasion",
+    "title": "No Substitute",
+    "album": "Vinnie Vincent Invasion",
+    "key": "vinnie vincent invasion|no substitute"
+  },
+  {
+    "id": "68379",
+    "playedAt": 1789853111000,
+    "artist": "Sammy Hagar",
+    "title": "Three Lock Box",
+    "album": "Three Lock Box",
+    "key": "sammy hagar|three lock box"
+  },
+  {
+    "id": "68381",
+    "playedAt": 1789853296000,
+    "artist": "Alias",
+    "title": "More Than Words Can Say",
+    "album": "Alias",
+    "key": "alias|more than words can say"
+  },
+  {
+    "id": "68383",
+    "playedAt": 1789853520000,
+    "artist": "Dangerous Toys",
+    "title": "Scared",
+    "album": "Dangerous Toys",
+    "key": "dangerous toys|scared"
+  },
+  {
+    "id": "68386",
+    "playedAt": 1789853744000,
+    "artist": "Night Ranger",
+    "title": "(You Can Still) Rock In America",
+    "album": "Midnight Madness",
+    "key": "night ranger|you can still rock in america"
+  },
+  {
+    "id": "68388",
+    "playedAt": 1789853996000,
+    "artist": "Faster Pussycat",
+    "title": "Nonstop To Nowhere",
+    "album": "Whipped!",
+    "key": "faster pussycat|nonstop to nowhere"
+  },
+  {
+    "id": "68390",
+    "playedAt": 1789854353000,
+    "artist": "Warrant",
+    "title": "I Saw Red",
+    "album": "Cherry Pie",
+    "key": "warrant|i saw red"
+  },
+  {
+    "id": "68394",
+    "playedAt": 1789854583000,
+    "artist": "Van Halen",
+    "title": "Jump",
+    "album": "1984",
+    "key": "van halen|jump"
+  },
+  {
+    "id": "68396",
+    "playedAt": 1789854811000,
+    "artist": "KISS",
+    "title": "Let's Put The X In Sex",
+    "album": "Smashes, Thrashes & Hits",
+    "key": "kiss|let s put the x in sex"
+  },
+  {
+    "id": "68398",
+    "playedAt": 1789855021000,
+    "artist": "Def Leppard",
+    "title": "I Wanna Touch U",
+    "album": "Adrenalize",
+    "key": "def leppard|i wanna touch u"
+  },
+  {
+    "id": "68399",
+    "playedAt": 1789855235000,
+    "artist": "Slaughter",
+    "title": "Fly To The Angels (Acoustic)",
+    "album": "VH1 Classic Metal Mania Stripped Vol. 1",
+    "key": "slaughter|fly to the angels acoustic"
+  },
+  {
+    "id": "68403",
+    "playedAt": 1789855463000,
+    "artist": "Y&T",
+    "title": "Summertime Girls",
+    "album": "Down For The Count",
+    "key": "y and t|summertime girls"
+  },
+  {
+    "id": "68405",
+    "playedAt": 1789855667000,
+    "artist": "Shotgun Messiah",
+    "title": "Shout It Out",
+    "album": "Shotgun Messiah",
+    "key": "shotgun messiah|shout it out"
+  },
+  {
+    "id": "68408",
+    "playedAt": 1789855918000,
+    "artist": "White Lion",
+    "title": "Broken Heart",
+    "album": "Fight to Survive",
+    "key": "white lion|broken heart"
+  },
+  {
+    "id": "68411",
+    "playedAt": 1789856123000,
+    "artist": "Twisted Sister",
+    "title": "The Price",
+    "album": "Stay Hungry",
+    "key": "twisted sister|the price"
+  },
+  {
+    "id": "68414",
+    "playedAt": 1789856341000,
+    "artist": "McAuley Schenker Group",
+    "title": "Love Is Not A Game",
+    "album": "Perfect Timing",
+    "key": "mcauley schenker group|love is not a game"
+  },
+  {
+    "id": "68416",
+    "playedAt": 1789856582000,
+    "artist": "Vixen",
+    "title": "Rev It Up",
+    "album": "Rev It Up!",
+    "key": "vixen|rev it up"
+  },
+  {
+    "id": "68419",
+    "playedAt": 1789856860000,
+    "artist": "Whitesnake",
+    "title": "Don't Turn Away",
+    "album": "Whitesnake (2018 Remaster)",
+    "key": "whitesnake|don t turn away"
   }
 ]
