@@ -1,330 +1,5 @@
 [
   {
-    "artist": "Heavy Bones",
-    "title": "Turn It On",
-    "search": "https://www.youtube.com/results?search_query=Heavy%20Bones%20Turn%20It%20On"
-  },
-  {
-    "artist": "Hardline",
-    "title": "Takin' Me Down",
-    "search": "https://www.youtube.com/results?search_query=Hardline%20Takin%27%20Me%20Down"
-  },
-  {
-    "artist": "Vinnie Vincent Invasion",
-    "title": "Love Kills",
-    "search": "https://www.youtube.com/results?search_query=Vinnie%20Vincent%20Invasion%20Love%20Kills"
-  },
-  {
-    "artist": "Motley Crue",
-    "title": "Smokin' In The Boys Room",
-    "search": "https://www.youtube.com/results?search_query=Motley%20Crue%20Smokin%27%20In%20The%20Boys%20Room"
-  },
-  {
-    "artist": "Def Leppard",
-    "title": "Women",
-    "search": "https://www.youtube.com/results?search_query=Def%20Leppard%20Women"
-  },
-  {
-    "artist": "Paul Laine",
-    "title": "Dorianna",
-    "search": "https://www.youtube.com/results?search_query=Paul%20Laine%20Dorianna"
-  },
-  {
-    "artist": "Trixter",
-    "title": "Only Young Once",
-    "search": "https://www.youtube.com/results?search_query=Trixter%20Only%20Young%20Once"
-  },
-  {
-    "artist": "KISS",
-    "title": "Turn On The Night",
-    "search": "https://www.youtube.com/results?search_query=KISS%20Turn%20On%20The%20Night"
-  },
-  {
-    "artist": "Tyketto",
-    "title": "Forever Young",
-    "search": "https://www.youtube.com/results?search_query=Tyketto%20Forever%20Young"
-  },
-  {
-    "artist": "Danger Danger",
-    "title": "Don't Blame It On Love",
-    "search": "https://www.youtube.com/results?search_query=Danger%20Danger%20Don%27t%20Blame%20It%20On%20Love"
-  },
-  {
-    "artist": "L.A. Guns",
-    "title": "It's Over Now",
-    "search": "https://www.youtube.com/results?search_query=L.A.%20Guns%20It%27s%20Over%20Now"
-  },
-  {
-    "artist": "Twisted Sister",
-    "title": "Hot Love",
-    "search": "https://www.youtube.com/results?search_query=Twisted%20Sister%20Hot%20Love"
-  },
-  {
-    "artist": "Whitesnake",
-    "title": "Standing In The Shadow",
-    "search": "https://www.youtube.com/results?search_query=Whitesnake%20Standing%20In%20The%20Shadow"
-  },
-  {
-    "artist": "Bad English",
-    "title": "Forget Me Not",
-    "search": "https://www.youtube.com/results?search_query=Bad%20English%20Forget%20Me%20Not"
-  },
-  {
-    "artist": "Dokken",
-    "title": "Slippin' Away",
-    "search": "https://www.youtube.com/results?search_query=Dokken%20Slippin%27%20Away"
-  },
-  {
-    "artist": "Great White",
-    "title": "Once Bitten Twice Shy",
-    "search": "https://www.youtube.com/results?search_query=Great%20White%20Once%20Bitten%20Twice%20Shy"
-  },
-  {
-    "artist": "King Kobra",
-    "title": "Hunger",
-    "search": "https://www.youtube.com/results?search_query=King%20Kobra%20Hunger"
-  },
-  {
-    "artist": "Bon Jovi",
-    "title": "Price Of Love",
-    "search": "https://www.youtube.com/results?search_query=Bon%20Jovi%20Price%20Of%20Love"
-  },
-  {
-    "artist": "Thunder",
-    "title": "Love Walked In",
-    "search": "https://www.youtube.com/results?search_query=Thunder%20Love%20Walked%20In"
-  },
-  {
-    "artist": "Cinderella",
-    "title": "Somebody Save Me",
-    "search": "https://www.youtube.com/results?search_query=Cinderella%20Somebody%20Save%20Me"
-  },
-  {
-    "artist": "Vain",
-    "title": "Beat the Bullet",
-    "search": "https://www.youtube.com/results?search_query=Vain%20Beat%20the%20Bullet"
-  },
-  {
-    "artist": "KISS",
-    "title": "I Just Wanna",
-    "search": "https://www.youtube.com/results?search_query=KISS%20I%20Just%20Wanna"
-  },
-  {
-    "artist": "Ratt",
-    "title": "Wanted Man",
-    "search": "https://www.youtube.com/results?search_query=Ratt%20Wanted%20Man"
-  },
-  {
-    "artist": "Shotgun Messiah",
-    "title": "Heartbreak Blvd.",
-    "search": "https://www.youtube.com/results?search_query=Shotgun%20Messiah%20Heartbreak%20Blvd."
-  },
-  {
-    "artist": "Jetboy",
-    "title": "Heavy Chevy",
-    "search": "https://www.youtube.com/results?search_query=Jetboy%20Heavy%20Chevy"
-  },
-  {
-    "artist": "David Lee Roth",
-    "title": "Damn Good",
-    "search": "https://www.youtube.com/results?search_query=David%20Lee%20Roth%20Damn%20Good"
-  },
-  {
-    "artist": "Def Leppard",
-    "title": "Rock Of Ages",
-    "search": "https://www.youtube.com/results?search_query=Def%20Leppard%20Rock%20Of%20Ages"
-  },
-  {
-    "artist": "Mitch Malloy",
-    "title": "Anything At All",
-    "search": "https://www.youtube.com/results?search_query=Mitch%20Malloy%20Anything%20At%20All"
-  },
-  {
-    "artist": "Night Ranger",
-    "title": "Four In The Morning (I Can't Take Anymore)",
-    "search": "https://www.youtube.com/results?search_query=Night%20Ranger%20Four%20In%20The%20Morning%20%28I%20Can%27t%20Take%20Anymore%29"
-  },
-  {
-    "artist": "Arcade",
-    "title": "Cry No More",
-    "search": "https://www.youtube.com/results?search_query=Arcade%20Cry%20No%20More"
-  },
-  {
-    "artist": "Europe",
-    "title": "The Final Countdown",
-    "search": "https://www.youtube.com/results?search_query=Europe%20The%20Final%20Countdown"
-  },
-  {
-    "artist": "Sammy Hagar",
-    "title": "Give To Live",
-    "search": "https://www.youtube.com/results?search_query=Sammy%20Hagar%20Give%20To%20Live"
-  },
-  {
-    "artist": "Scorpions",
-    "title": "Love 'Em Or Leave 'Em",
-    "search": "https://www.youtube.com/results?search_query=Scorpions%20Love%20%27Em%20Or%20Leave%20%27Em"
-  },
-  {
-    "artist": "Great White",
-    "title": "Save Your Love",
-    "search": "https://www.youtube.com/results?search_query=Great%20White%20Save%20Your%20Love"
-  },
-  {
-    "artist": "Danger Danger",
-    "title": "Bang Bang",
-    "search": "https://www.youtube.com/results?search_query=Danger%20Danger%20Bang%20Bang"
-  },
-  {
-    "artist": "Whitesnake",
-    "title": "Children Of The Night",
-    "search": "https://www.youtube.com/results?search_query=Whitesnake%20Children%20Of%20The%20Night"
-  },
-  {
-    "artist": "Autograph",
-    "title": "Blondes In Black Cars",
-    "search": "https://www.youtube.com/results?search_query=Autograph%20Blondes%20In%20Black%20Cars"
-  },
-  {
-    "artist": "Killer Dwarfs",
-    "title": "Dirty Weapons",
-    "search": "https://www.youtube.com/results?search_query=Killer%20Dwarfs%20Dirty%20Weapons"
-  },
-  {
-    "artist": "David Lee Roth",
-    "title": "Tobacco Road",
-    "search": "https://www.youtube.com/results?search_query=David%20Lee%20Roth%20Tobacco%20Road"
-  },
-  {
-    "artist": "Krokus",
-    "title": "Our Love",
-    "search": "https://www.youtube.com/results?search_query=Krokus%20Our%20Love"
-  },
-  {
-    "artist": "White Lion",
-    "title": "You're All I Need",
-    "search": "https://www.youtube.com/results?search_query=White%20Lion%20You%27re%20All%20I%20Need"
-  },
-  {
-    "artist": "Europe",
-    "title": "Seven Doors Hotel",
-    "search": "https://www.youtube.com/results?search_query=Europe%20Seven%20Doors%20Hotel"
-  },
-  {
-    "artist": "Stone Fury",
-    "title": "Break Down The Wall",
-    "search": "https://www.youtube.com/results?search_query=Stone%20Fury%20Break%20Down%20The%20Wall"
-  },
-  {
-    "artist": "Chrissy Steele",
-    "title": "Love Don't Last Forever",
-    "search": "https://www.youtube.com/results?search_query=Chrissy%20Steele%20Love%20Don%27t%20Last%20Forever"
-  },
-  {
-    "artist": "Ratt",
-    "title": "I Want A Woman",
-    "search": "https://www.youtube.com/results?search_query=Ratt%20I%20Want%20A%20Woman"
-  },
-  {
-    "artist": "Steve Stevens",
-    "title": "Atomic Playboys",
-    "search": "https://www.youtube.com/results?search_query=Steve%20Stevens%20Atomic%20Playboys"
-  },
-  {
-    "artist": "Van Halen",
-    "title": "I'll Wait",
-    "search": "https://www.youtube.com/results?search_query=Van%20Halen%20I%27ll%20Wait"
-  },
-  {
-    "artist": "Scorpions",
-    "title": "Still Loving You",
-    "search": "https://www.youtube.com/results?search_query=Scorpions%20Still%20Loving%20You"
-  },
-  {
-    "artist": "Vixen",
-    "title": "Edge Of A Broken Heart",
-    "search": "https://www.youtube.com/results?search_query=Vixen%20Edge%20Of%20A%20Broken%20Heart"
-  },
-  {
-    "artist": "Bon Jovi",
-    "title": "Roulette",
-    "search": "https://www.youtube.com/results?search_query=Bon%20Jovi%20Roulette"
-  },
-  {
-    "artist": "Dokken",
-    "title": "Standing On The Outside",
-    "search": "https://www.youtube.com/results?search_query=Dokken%20Standing%20On%20The%20Outside"
-  },
-  {
-    "artist": "Tyketto",
-    "title": "Seasons",
-    "search": "https://www.youtube.com/results?search_query=Tyketto%20Seasons"
-  },
-  {
-    "artist": "Dangerous Toys",
-    "title": "Scared",
-    "search": "https://www.youtube.com/results?search_query=Dangerous%20Toys%20Scared"
-  },
-  {
-    "artist": "Europe",
-    "title": "I'll Cry For You",
-    "search": "https://www.youtube.com/results?search_query=Europe%20I%27ll%20Cry%20For%20You"
-  },
-  {
-    "artist": "Helix",
-    "title": "Deep Cuts The Knife",
-    "search": "https://www.youtube.com/results?search_query=Helix%20Deep%20Cuts%20The%20Knife"
-  },
-  {
-    "artist": "Ratt",
-    "title": "Round And Round",
-    "search": "https://www.youtube.com/results?search_query=Ratt%20Round%20And%20Round"
-  },
-  {
-    "artist": "Mr. Big",
-    "title": "Stop Messing Around",
-    "search": "https://www.youtube.com/results?search_query=Mr.%20Big%20Stop%20Messing%20Around"
-  },
-  {
-    "artist": "Van Halen",
-    "title": "Humans Being",
-    "search": "https://www.youtube.com/results?search_query=Van%20Halen%20Humans%20Being"
-  },
-  {
-    "artist": "Giant",
-    "title": "Now Until Forever",
-    "search": "https://www.youtube.com/results?search_query=Giant%20Now%20Until%20Forever"
-  },
-  {
-    "artist": "Motley Crue",
-    "title": "Dr. Feelgood",
-    "search": "https://www.youtube.com/results?search_query=Motley%20Crue%20Dr.%20Feelgood"
-  },
-  {
-    "artist": "Slaughter",
-    "title": "Desperately",
-    "search": "https://www.youtube.com/results?search_query=Slaughter%20Desperately"
-  },
-  {
-    "artist": "Cats In Boots",
-    "title": "Her Monkey",
-    "search": "https://www.youtube.com/results?search_query=Cats%20In%20Boots%20Her%20Monkey"
-  },
-  {
-    "artist": "Great White",
-    "title": "The Angel Song",
-    "search": "https://www.youtube.com/results?search_query=Great%20White%20The%20Angel%20Song"
-  },
-  {
-    "artist": "KISS",
-    "title": "Heaven's On Fire",
-    "search": "https://www.youtube.com/results?search_query=KISS%20Heaven%27s%20On%20Fire"
-  },
-  {
-    "artist": "Y&T",
-    "title": "Don't Stop Runnin'",
-    "search": "https://www.youtube.com/results?search_query=Y%26T%20Don%27t%20Stop%20Runnin%27"
-  },
-  {
     "artist": "The Cult",
     "title": "Edie (Ciao Baby)",
     "search": "https://www.youtube.com/results?search_query=The%20Cult%20Edie%20%28Ciao%20Baby%29"
@@ -408,6 +83,11 @@
     "artist": "Quiet Riot",
     "title": "The Wild And The Young",
     "search": "https://www.youtube.com/results?search_query=Quiet%20Riot%20The%20Wild%20And%20The%20Young"
+  },
+  {
+    "artist": "David Lee Roth",
+    "title": "Tobacco Road",
+    "search": "https://www.youtube.com/results?search_query=David%20Lee%20Roth%20Tobacco%20Road"
   },
   {
     "artist": "Junkyard",
@@ -510,6 +190,11 @@
     "search": "https://www.youtube.com/results?search_query=Slik%20Toxik%20Helluvatime"
   },
   {
+    "artist": "Night Ranger",
+    "title": "Four In The Morning (I Can't Take Anymore)",
+    "search": "https://www.youtube.com/results?search_query=Night%20Ranger%20Four%20In%20The%20Morning%20%28I%20Can%27t%20Take%20Anymore%29"
+  },
+  {
     "artist": "Rainbow",
     "title": "Stone Cold",
     "search": "https://www.youtube.com/results?search_query=Rainbow%20Stone%20Cold"
@@ -575,6 +260,11 @@
     "search": "https://www.youtube.com/results?search_query=Giant%20Chained"
   },
   {
+    "artist": "Sammy Hagar",
+    "title": "Give To Live",
+    "search": "https://www.youtube.com/results?search_query=Sammy%20Hagar%20Give%20To%20Live"
+  },
+  {
     "artist": "Vandenberg",
     "title": "Burning Heart",
     "search": "https://www.youtube.com/results?search_query=Vandenberg%20Burning%20Heart"
@@ -603,6 +293,11 @@
     "artist": "Def Leppard",
     "title": "Armageddon It",
     "search": "https://www.youtube.com/results?search_query=Def%20Leppard%20Armageddon%20It"
+  },
+  {
+    "artist": "Whitesnake",
+    "title": "Children Of The Night",
+    "search": "https://www.youtube.com/results?search_query=Whitesnake%20Children%20Of%20The%20Night"
   },
   {
     "artist": "DIO",
@@ -688,6 +383,11 @@
     "artist": "Motley Crue",
     "title": "On With The Show",
     "search": "https://www.youtube.com/results?search_query=Motley%20Crue%20On%20With%20The%20Show"
+  },
+  {
+    "artist": "Dangerous Toys",
+    "title": "Scared",
+    "search": "https://www.youtube.com/results?search_query=Dangerous%20Toys%20Scared"
   },
   {
     "artist": "Warrant",
@@ -885,6 +585,11 @@
     "search": "https://www.youtube.com/results?search_query=Winger%20Madalaine"
   },
   {
+    "artist": "Van Halen",
+    "title": "Humans Being",
+    "search": "https://www.youtube.com/results?search_query=Van%20Halen%20Humans%20Being"
+  },
+  {
     "artist": "Bon Jovi",
     "title": "Burning For Love",
     "search": "https://www.youtube.com/results?search_query=Bon%20Jovi%20Burning%20For%20Love"
@@ -1005,9 +710,19 @@
     "search": "https://www.youtube.com/results?search_query=Skid%20Row%20Quicksand%20Jesus"
   },
   {
+    "artist": "Vixen",
+    "title": "Edge Of A Broken Heart",
+    "search": "https://www.youtube.com/results?search_query=Vixen%20Edge%20Of%20A%20Broken%20Heart"
+  },
+  {
     "artist": "Mr. Big",
     "title": "Daddy, Brother, Lover, Little Boy (The Electric Drill Song)",
     "search": "https://www.youtube.com/results?search_query=Mr.%20Big%20Daddy%2C%20Brother%2C%20Lover%2C%20Little%20Boy%20%28The%20Electric%20Drill%20Song%29"
+  },
+  {
+    "artist": "Stone Fury",
+    "title": "Break Down The Wall",
+    "search": "https://www.youtube.com/results?search_query=Stone%20Fury%20Break%20Down%20The%20Wall"
   },
   {
     "artist": "Shark Island",
@@ -1058,6 +773,11 @@
     "artist": "Dokken",
     "title": "It's Not Love",
     "search": "https://www.youtube.com/results?search_query=Dokken%20It%27s%20Not%20Love"
+  },
+  {
+    "artist": "Bon Jovi",
+    "title": "Roulette",
+    "search": "https://www.youtube.com/results?search_query=Bon%20Jovi%20Roulette"
   },
   {
     "artist": "Poison",
@@ -1223,6 +943,11 @@
     "artist": "Dokken",
     "title": "Jaded Heart",
     "search": "https://www.youtube.com/results?search_query=Dokken%20Jaded%20Heart"
+  },
+  {
+    "artist": "Europe",
+    "title": "I'll Cry For You",
+    "search": "https://www.youtube.com/results?search_query=Europe%20I%27ll%20Cry%20For%20You"
   },
   {
     "artist": "Brighton Rock",
@@ -1623,5 +1348,350 @@
     "artist": "Tesla",
     "title": "Love Song",
     "search": "https://www.youtube.com/results?search_query=Tesla%20Love%20Song"
+  },
+  {
+    "artist": "Skid Row",
+    "title": "18 And Life",
+    "search": "https://www.youtube.com/results?search_query=Skid%20Row%2018%20And%20Life"
+  },
+  {
+    "artist": "Aerosmith",
+    "title": "Janie's Got A Gun",
+    "search": "https://www.youtube.com/results?search_query=Aerosmith%20Janie%27s%20Got%20A%20Gun"
+  },
+  {
+    "artist": "Smashed Gladys",
+    "title": "Legs Up",
+    "search": "https://www.youtube.com/results?search_query=Smashed%20Gladys%20Legs%20Up"
+  },
+  {
+    "artist": "Stryper",
+    "title": "Free",
+    "search": "https://www.youtube.com/results?search_query=Stryper%20Free"
+  },
+  {
+    "artist": "Warrant",
+    "title": "Machine Gun",
+    "search": "https://www.youtube.com/results?search_query=Warrant%20Machine%20Gun"
+  },
+  {
+    "artist": "Y&T",
+    "title": "All American Boy",
+    "search": "https://www.youtube.com/results?search_query=Y%26T%20All%20American%20Boy"
+  },
+  {
+    "artist": "Guns N' Roses",
+    "title": "Don't Cry",
+    "search": "https://www.youtube.com/results?search_query=Guns%20N%27%20Roses%20Don%27t%20Cry"
+  },
+  {
+    "artist": "Ratt",
+    "title": "Dance",
+    "search": "https://www.youtube.com/results?search_query=Ratt%20Dance"
+  },
+  {
+    "artist": "BulletBoys",
+    "title": "For The Love Of Money",
+    "search": "https://www.youtube.com/results?search_query=BulletBoys%20For%20The%20Love%20Of%20Money"
+  },
+  {
+    "artist": "W.A.S.P.",
+    "title": "Wild Child",
+    "search": "https://www.youtube.com/results?search_query=W.A.S.P.%20Wild%20Child"
+  },
+  {
+    "artist": "Rough Cutt",
+    "title": "The Night Cries Out For You",
+    "search": "https://www.youtube.com/results?search_query=Rough%20Cutt%20The%20Night%20Cries%20Out%20For%20You"
+  },
+  {
+    "artist": "Winger",
+    "title": "Can't Get Enuff",
+    "search": "https://www.youtube.com/results?search_query=Winger%20Can%27t%20Get%20Enuff"
+  },
+  {
+    "artist": "Hanoi Rocks",
+    "title": "Boulevard Of Broken Dreams",
+    "search": "https://www.youtube.com/results?search_query=Hanoi%20Rocks%20Boulevard%20Of%20Broken%20Dreams"
+  },
+  {
+    "artist": "Zebra",
+    "title": "Who's Behind The Door",
+    "search": "https://www.youtube.com/results?search_query=Zebra%20Who%27s%20Behind%20The%20Door"
+  },
+  {
+    "artist": "Steelheart",
+    "title": "I'll Never Let You Go (Angel Eyes)",
+    "search": "https://www.youtube.com/results?search_query=Steelheart%20I%27ll%20Never%20Let%20You%20Go%20%28Angel%20Eyes%29"
+  },
+  {
+    "artist": "Poison",
+    "title": "Talk Dirty To Me",
+    "search": "https://www.youtube.com/results?search_query=Poison%20Talk%20Dirty%20To%20Me"
+  },
+  {
+    "artist": "Dirty Looks",
+    "title": "Can't Take My Eyes Off Of You",
+    "search": "https://www.youtube.com/results?search_query=Dirty%20Looks%20Can%27t%20Take%20My%20Eyes%20Off%20Of%20You"
+  },
+  {
+    "artist": "Slaughter",
+    "title": "Burnin' Bridges [Live]",
+    "search": "https://www.youtube.com/results?search_query=Slaughter%20Burnin%27%20Bridges%20%5BLive%5D"
+  },
+  {
+    "artist": "Bonfire",
+    "title": "Hard On Me",
+    "search": "https://www.youtube.com/results?search_query=Bonfire%20Hard%20On%20Me"
+  },
+  {
+    "artist": "Damn Yankees",
+    "title": "Coming Of Age",
+    "search": "https://www.youtube.com/results?search_query=Damn%20Yankees%20Coming%20Of%20Age"
+  },
+  {
+    "artist": "Vince Neil",
+    "title": "Sister Of Pain",
+    "search": "https://www.youtube.com/results?search_query=Vince%20Neil%20Sister%20Of%20Pain"
+  },
+  {
+    "artist": "Thunder",
+    "title": "Does It Feel Like Love",
+    "search": "https://www.youtube.com/results?search_query=Thunder%20Does%20It%20Feel%20Like%20Love"
+  },
+  {
+    "artist": "Danger Danger",
+    "title": "I Still Think About You",
+    "search": "https://www.youtube.com/results?search_query=Danger%20Danger%20I%20Still%20Think%20About%20You"
+  },
+  {
+    "artist": "Van Halen",
+    "title": "Hot For Teacher",
+    "search": "https://www.youtube.com/results?search_query=Van%20Halen%20Hot%20For%20Teacher"
+  },
+  {
+    "artist": "Scorpions",
+    "title": "Don't Stop At The Top",
+    "search": "https://www.youtube.com/results?search_query=Scorpions%20Don%27t%20Stop%20At%20The%20Top"
+  },
+  {
+    "artist": "Def Leppard",
+    "title": "Make Love Like A Man",
+    "search": "https://www.youtube.com/results?search_query=Def%20Leppard%20Make%20Love%20Like%20A%20Man"
+  },
+  {
+    "artist": "Keel",
+    "title": "Tears Of Fire",
+    "search": "https://www.youtube.com/results?search_query=Keel%20Tears%20Of%20Fire"
+  },
+  {
+    "artist": "X.Y.Z.",
+    "title": "Inside Out",
+    "search": "https://www.youtube.com/results?search_query=X.Y.Z.%20Inside%20Out"
+  },
+  {
+    "artist": "Firehouse",
+    "title": "Hold Your Fire",
+    "search": "https://www.youtube.com/results?search_query=Firehouse%20Hold%20Your%20Fire"
+  },
+  {
+    "artist": "Trixter",
+    "title": "Rockin' Horse",
+    "search": "https://www.youtube.com/results?search_query=Trixter%20Rockin%27%20Horse"
+  },
+  {
+    "artist": "Enuff Z'Nuff",
+    "title": "Fly High Michelle",
+    "search": "https://www.youtube.com/results?search_query=Enuff%20Z%27Nuff%20Fly%20High%20Michelle"
+  },
+  {
+    "artist": "Hurricane",
+    "title": "I'm Onto You",
+    "search": "https://www.youtube.com/results?search_query=Hurricane%20I%27m%20Onto%20You"
+  },
+  {
+    "artist": "Vixen",
+    "title": "I Want You To Rock Me",
+    "search": "https://www.youtube.com/results?search_query=Vixen%20I%20Want%20You%20To%20Rock%20Me"
+  },
+  {
+    "artist": "Marchello",
+    "title": "First Love",
+    "search": "https://www.youtube.com/results?search_query=Marchello%20First%20Love"
+  },
+  {
+    "artist": "Tesla",
+    "title": "Lazy Days, Crazy Nights",
+    "search": "https://www.youtube.com/results?search_query=Tesla%20Lazy%20Days%2C%20Crazy%20Nights"
+  },
+  {
+    "artist": "Slaughter",
+    "title": "Spend My Life",
+    "search": "https://www.youtube.com/results?search_query=Slaughter%20Spend%20My%20Life"
+  },
+  {
+    "artist": "Honeymoon Suite",
+    "title": "New Girl Now",
+    "search": "https://www.youtube.com/results?search_query=Honeymoon%20Suite%20New%20Girl%20Now"
+  },
+  {
+    "artist": "Shadow King",
+    "title": "I Want You",
+    "search": "https://www.youtube.com/results?search_query=Shadow%20King%20I%20Want%20You"
+  },
+  {
+    "artist": "Killer Dwarfs",
+    "title": "Doesn't Matter",
+    "search": "https://www.youtube.com/results?search_query=Killer%20Dwarfs%20Doesn%27t%20Matter"
+  },
+  {
+    "artist": "Twisted Sister",
+    "title": "We're Not Gonna Take It",
+    "search": "https://www.youtube.com/results?search_query=Twisted%20Sister%20We%27re%20Not%20Gonna%20Take%20It"
+  },
+  {
+    "artist": "Def Leppard",
+    "title": "Love And Affection",
+    "search": "https://www.youtube.com/results?search_query=Def%20Leppard%20Love%20And%20Affection"
+  },
+  {
+    "artist": "April Wine",
+    "title": "Just Between You And Me",
+    "search": "https://www.youtube.com/results?search_query=April%20Wine%20Just%20Between%20You%20And%20Me"
+  },
+  {
+    "artist": "Lita Ford",
+    "title": "Kiss Me Deadly",
+    "search": "https://www.youtube.com/results?search_query=Lita%20Ford%20Kiss%20Me%20Deadly"
+  },
+  {
+    "artist": "Faster Pussycat",
+    "title": "Babylon",
+    "search": "https://www.youtube.com/results?search_query=Faster%20Pussycat%20Babylon"
+  },
+  {
+    "artist": "Hanoi Rocks",
+    "title": "Don't You Ever Leave Me",
+    "search": "https://www.youtube.com/results?search_query=Hanoi%20Rocks%20Don%27t%20You%20Ever%20Leave%20Me"
+  },
+  {
+    "artist": "Scorpions",
+    "title": "Wind Of Change",
+    "search": "https://www.youtube.com/results?search_query=Scorpions%20Wind%20Of%20Change"
+  },
+  {
+    "artist": "Warrant",
+    "title": "Cherry Pie",
+    "search": "https://www.youtube.com/results?search_query=Warrant%20Cherry%20Pie"
+  },
+  {
+    "artist": "Van Halen",
+    "title": "Summer Nights",
+    "search": "https://www.youtube.com/results?search_query=Van%20Halen%20Summer%20Nights"
+  },
+  {
+    "artist": "Helix",
+    "title": "Never Want To Lose You",
+    "search": "https://www.youtube.com/results?search_query=Helix%20Never%20Want%20To%20Lose%20You"
+  },
+  {
+    "artist": "Guns N' Roses",
+    "title": "Welcome To The Jungle",
+    "search": "https://www.youtube.com/results?search_query=Guns%20N%27%20Roses%20Welcome%20To%20The%20Jungle"
+  },
+  {
+    "artist": "Slaughter",
+    "title": "Real Love",
+    "search": "https://www.youtube.com/results?search_query=Slaughter%20Real%20Love"
+  },
+  {
+    "artist": "Dokken",
+    "title": "Will The Sun Rise",
+    "search": "https://www.youtube.com/results?search_query=Dokken%20Will%20The%20Sun%20Rise"
+  },
+  {
+    "artist": "Extreme",
+    "title": "More Than Words",
+    "search": "https://www.youtube.com/results?search_query=Extreme%20More%20Than%20Words"
+  },
+  {
+    "artist": "Whitesnake",
+    "title": "Here I Go Again",
+    "search": "https://www.youtube.com/results?search_query=Whitesnake%20Here%20I%20Go%20Again"
+  },
+  {
+    "artist": "Sammy Hagar",
+    "title": "Two Sides Of Love",
+    "search": "https://www.youtube.com/results?search_query=Sammy%20Hagar%20Two%20Sides%20Of%20Love"
+  },
+  {
+    "artist": "Danger Danger",
+    "title": "Beat The Bullet",
+    "search": "https://www.youtube.com/results?search_query=Danger%20Danger%20Beat%20The%20Bullet"
+  },
+  {
+    "artist": "Cinderella",
+    "title": "Hard To Find The Words",
+    "search": "https://www.youtube.com/results?search_query=Cinderella%20Hard%20To%20Find%20The%20Words"
+  },
+  {
+    "artist": "Ratt",
+    "title": "Wanted Man",
+    "search": "https://www.youtube.com/results?search_query=Ratt%20Wanted%20Man"
+  },
+  {
+    "artist": "Autograph",
+    "title": "Send Her To Me",
+    "search": "https://www.youtube.com/results?search_query=Autograph%20Send%20Her%20To%20Me"
+  },
+  {
+    "artist": "Honeymoon Suite",
+    "title": "Bad Attitude",
+    "search": "https://www.youtube.com/results?search_query=Honeymoon%20Suite%20Bad%20Attitude"
+  },
+  {
+    "artist": "Skid Row",
+    "title": "I Remember You",
+    "search": "https://www.youtube.com/results?search_query=Skid%20Row%20I%20Remember%20You"
+  },
+  {
+    "artist": "Enuff Z'Nuff",
+    "title": "New Thing",
+    "search": "https://www.youtube.com/results?search_query=Enuff%20Z%27Nuff%20New%20Thing"
+  },
+  {
+    "artist": "W.A.S.P.",
+    "title": "I Wanna Be Somebody",
+    "search": "https://www.youtube.com/results?search_query=W.A.S.P.%20I%20Wanna%20Be%20Somebody"
+  },
+  {
+    "artist": "Firehouse",
+    "title": "Lover's Lane",
+    "search": "https://www.youtube.com/results?search_query=Firehouse%20Lover%27s%20Lane"
+  },
+  {
+    "artist": "Whitesnake",
+    "title": "Fool For Your Loving",
+    "search": "https://www.youtube.com/results?search_query=Whitesnake%20Fool%20For%20Your%20Loving"
+  },
+  {
+    "artist": "Cinderella",
+    "title": "The More Things Change",
+    "search": "https://www.youtube.com/results?search_query=Cinderella%20The%20More%20Things%20Change"
+  },
+  {
+    "artist": "Fastway",
+    "title": "Tell Me",
+    "search": "https://www.youtube.com/results?search_query=Fastway%20Tell%20Me"
+  },
+  {
+    "artist": "Bad English",
+    "title": "Possession",
+    "search": "https://www.youtube.com/results?search_query=Bad%20English%20Possession"
+  },
+  {
+    "artist": "Saraya",
+    "title": "Love Has Taken It's Toll",
+    "search": "https://www.youtube.com/results?search_query=Saraya%20Love%20Has%20Taken%20It%27s%20Toll"
   }
 ]
