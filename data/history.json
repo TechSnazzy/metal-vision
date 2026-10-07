@@ -1,685 +1,5 @@
 [
   {
-    "id": "77489",
-    "playedAt": 1790725666000,
-    "artist": "L.A. Guns",
-    "title": "I Wanna Be Your Man",
-    "album": "Cocked & Loaded",
-    "key": "l a guns|i wanna be your man"
-  },
-  {
-    "id": "77491",
-    "playedAt": 1790725875000,
-    "artist": "Flame",
-    "title": "New Love",
-    "album": "Blaze",
-    "key": "flame|new love"
-  },
-  {
-    "id": "77494",
-    "playedAt": 1790726186000,
-    "artist": "Motley Crue",
-    "title": "Looks That Kill",
-    "album": "Shout At The Devil",
-    "key": "motley crue|looks that kill"
-  },
-  {
-    "id": "77497",
-    "playedAt": 1790726418000,
-    "artist": "Alice Cooper",
-    "title": "Poison",
-    "album": "Trash",
-    "key": "alice cooper|poison"
-  },
-  {
-    "id": "77498",
-    "playedAt": 1790726673000,
-    "artist": "Roxus",
-    "title": "Stand Back",
-    "album": "Nightstreet",
-    "key": "roxus|stand back"
-  },
-  {
-    "id": "77500",
-    "playedAt": 1790726892000,
-    "artist": "Poison",
-    "title": "Something To Believe In",
-    "album": "Flesh & Blood",
-    "key": "poison|something to believe in"
-  },
-  {
-    "id": "77504",
-    "playedAt": 1790727217000,
-    "artist": "Hardline",
-    "title": "Hot Cherie",
-    "album": "Double Eclipse",
-    "key": "hardline|hot cherie"
-  },
-  {
-    "id": "77506",
-    "playedAt": 1790727489000,
-    "artist": "Tyketto",
-    "title": "Wings",
-    "album": "Don't Come Easy",
-    "key": "tyketto|wings"
-  },
-  {
-    "id": "77510",
-    "playedAt": 1790727751000,
-    "artist": "Paul Laine",
-    "title": "Is It Love",
-    "album": "Stick It in Your Ear",
-    "key": "paul laine|is it love"
-  },
-  {
-    "id": "77512",
-    "playedAt": 1790727981000,
-    "artist": "David Lee Roth",
-    "title": "Ladies' Nite In Buffalo",
-    "album": "Eat 'Em and Smile",
-    "key": "david lee roth|ladies nite in buffalo"
-  },
-  {
-    "id": "77514",
-    "playedAt": 1790728228000,
-    "artist": "Winger",
-    "title": "Hungry",
-    "album": "Winger",
-    "key": "winger|hungry"
-  },
-  {
-    "id": "77517",
-    "playedAt": 1790728464000,
-    "artist": "Joan Jett and the Blackhearts",
-    "title": "I Hate Myself For Loving You",
-    "album": "Up Your Alley",
-    "key": "joan jett and the blackhearts|i hate myself for loving you"
-  },
-  {
-    "id": "77520",
-    "playedAt": 1790728709000,
-    "artist": "Scorpions",
-    "title": "Arizona",
-    "album": "Blackout",
-    "key": "scorpions|arizona"
-  },
-  {
-    "id": "77523",
-    "playedAt": 1790728929000,
-    "artist": "Tuff",
-    "title": "I Hate Kissing You Goodbye",
-    "album": "What Comes Around Goes Around",
-    "key": "tuff|i hate kissing you goodbye"
-  },
-  {
-    "id": "77525",
-    "playedAt": 1790729186000,
-    "artist": "Stryper",
-    "title": "Calling On You",
-    "album": "To Hell With The Devil",
-    "key": "stryper|calling on you"
-  },
-  {
-    "id": "77527",
-    "playedAt": 1790729420000,
-    "artist": "Impellitteri",
-    "title": "Stand In Line",
-    "album": "Stand In Line",
-    "key": "impellitteri|stand in line"
-  },
-  {
-    "id": "77531",
-    "playedAt": 1790729685000,
-    "artist": "Motley Crue",
-    "title": "Starry Eyes",
-    "album": "Too Fast For Love",
-    "key": "motley crue|starry eyes"
-  },
-  {
-    "id": "77533",
-    "playedAt": 1790729945000,
-    "artist": "Night Ranger",
-    "title": "Forever All Over Again",
-    "album": "Neverland",
-    "key": "night ranger|forever all over again"
-  },
-  {
-    "id": "77536",
-    "playedAt": 1790730245000,
-    "artist": "Ratt",
-    "title": "I Want A Woman",
-    "album": "Reach For the Sky",
-    "key": "ratt|i want a woman"
-  },
-  {
-    "id": "77539",
-    "playedAt": 1790730464000,
-    "artist": "Pretty Boy Floyd",
-    "title": "Rock & Roll (Is Gonna Set The Night On Fire)",
-    "album": "Leather Boyz with Electric Toyz",
-    "key": "pretty boy floyd|rock and roll is gonna set the night on fire"
-  },
-  {
-    "id": "77540",
-    "playedAt": 1790730656000,
-    "artist": "Vixen",
-    "title": "Streets In Paradise",
-    "album": "Rev It Up!",
-    "key": "vixen|streets in paradise"
-  },
-  {
-    "id": "77542",
-    "playedAt": 1790730909000,
-    "artist": "Queensryche",
-    "title": "Silent Lucidity",
-    "album": "Empire",
-    "key": "queensryche|silent lucidity"
-  },
-  {
-    "id": "77546",
-    "playedAt": 1790731255000,
-    "artist": "White Lion",
-    "title": "Little Fighter",
-    "album": "Big Game",
-    "key": "white lion|little fighter"
-  },
-  {
-    "id": "77552",
-    "playedAt": 1790731514000,
-    "artist": "Whitesnake",
-    "title": "You're Gonna Break My Heart Again",
-    "album": "Whitesnake",
-    "key": "whitesnake|you re gonna break my heart again"
-  },
-  {
-    "id": "77554",
-    "playedAt": 1790731759000,
-    "artist": "Slaughter",
-    "title": "Eye To Eye",
-    "album": "Stick It To Ya",
-    "key": "slaughter|eye to eye"
-  },
-  {
-    "id": "77557",
-    "playedAt": 1790731987000,
-    "artist": "Quiet Riot",
-    "title": "Cum On Feel The Noize",
-    "album": "Metal Health",
-    "key": "quiet riot|cum on feel the noize"
-  },
-  {
-    "id": "77560",
-    "playedAt": 1790732262000,
-    "artist": "Living Colour",
-    "title": "Cult Of Personality",
-    "album": "Vivid",
-    "key": "living colour|cult of personality"
-  },
-  {
-    "id": "77562",
-    "playedAt": 1790732541000,
-    "artist": "Bang Tango",
-    "title": "Breaking Up A Heart Of Stone",
-    "album": "Psycho Cafe",
-    "key": "bang tango|breaking up a heart of stone"
-  },
-  {
-    "id": "77564",
-    "playedAt": 1790732827000,
-    "artist": "Lita Ford",
-    "title": "Lisa",
-    "album": "Stiletto",
-    "key": "lita ford|lisa"
-  },
-  {
-    "id": "77568",
-    "playedAt": 1790733104000,
-    "artist": "Bon Jovi",
-    "title": "Lay Your Hands On Me",
-    "album": "New Jersey",
-    "key": "bon jovi|lay your hands on me"
-  },
-  {
-    "id": "77570",
-    "playedAt": 1790733455000,
-    "artist": "Blue Murder",
-    "title": "Jelly Roll",
-    "album": "Blue Murder",
-    "key": "blue murder|jelly roll"
-  },
-  {
-    "id": "77572",
-    "playedAt": 1790733717000,
-    "artist": "Scorpions",
-    "title": "Walking On The Edge",
-    "album": "Savage Amusement",
-    "key": "scorpions|walking on the edge"
-  },
-  {
-    "id": "77574",
-    "playedAt": 1790733967000,
-    "artist": "BulletBoys",
-    "title": "Mine",
-    "album": "Za Za",
-    "key": "bulletboys|mine"
-  },
-  {
-    "id": "77578",
-    "playedAt": 1790734206000,
-    "artist": "Dokken",
-    "title": "It's Not Love",
-    "album": "Under Lock and Key",
-    "key": "dokken|it s not love"
-  },
-  {
-    "id": "77580",
-    "playedAt": 1790734493000,
-    "artist": "Alice Cooper",
-    "title": "Bed Of Nails",
-    "album": "Trash",
-    "key": "alice cooper|bed of nails"
-  },
-  {
-    "id": "77582",
-    "playedAt": 1790734741000,
-    "artist": "Waysted",
-    "title": "Walls Fall Down",
-    "album": "Save Your Prayers",
-    "key": "waysted|walls fall down"
-  },
-  {
-    "id": "77585",
-    "playedAt": 1790735021000,
-    "artist": "Lita Ford & Ozzy Osbourne",
-    "title": "Close My Eyes Forever",
-    "album": "Lita",
-    "key": "lita ford and ozzy osbourne|close my eyes forever"
-  },
-  {
-    "id": "77588",
-    "playedAt": 1790735302000,
-    "artist": "Vixen",
-    "title": "Edge Of A Broken Heart",
-    "album": "Vixen",
-    "key": "vixen|edge of a broken heart"
-  },
-  {
-    "id": "77591",
-    "playedAt": 1790735551000,
-    "artist": "Slaughter",
-    "title": "The Wild Life",
-    "album": "The Wild Life",
-    "key": "slaughter|the wild life"
-  },
-  {
-    "id": "77593",
-    "playedAt": 1790735752000,
-    "artist": "Law and Order",
-    "title": "We Don't See God",
-    "album": "Guilty Of Innocence",
-    "key": "law and order|we don t see god"
-  },
-  {
-    "id": "77595",
-    "playedAt": 1790735946000,
-    "artist": "Badlands",
-    "title": "Dreams In The Dark",
-    "album": "Badlands",
-    "key": "badlands|dreams in the dark"
-  },
-  {
-    "id": "77597",
-    "playedAt": 1790736148000,
-    "artist": "Bad English",
-    "title": "Time Stood Still",
-    "album": "Backlash",
-    "key": "bad english|time stood still"
-  },
-  {
-    "id": "77601",
-    "playedAt": 1790736453000,
-    "artist": "David Lee Roth",
-    "title": "She's My Machine",
-    "album": "Your Filthy Little Mouth",
-    "key": "david lee roth|she s my machine"
-  },
-  {
-    "id": "77602",
-    "playedAt": 1790736672000,
-    "artist": "Twisted Sister",
-    "title": "The Price",
-    "album": "Stay Hungry",
-    "key": "twisted sister|the price"
-  },
-  {
-    "id": "77605",
-    "playedAt": 1790736890000,
-    "artist": "Bon Jovi",
-    "title": "Livin' On A Prayer",
-    "album": "Slippery When Wet",
-    "key": "bon jovi|livin on a prayer"
-  },
-  {
-    "id": "77608",
-    "playedAt": 1790737114000,
-    "artist": "Chrissy Steele",
-    "title": "Love You Til It Hurts",
-    "album": "Magnet to Steele",
-    "key": "chrissy steele|love you til it hurts"
-  },
-  {
-    "id": "77610",
-    "playedAt": 1790737403000,
-    "artist": "Fiona with Kip Winger",
-    "title": "Everything You Do (You're Sexing Me)",
-    "album": "Heart Like a Gun",
-    "key": "fiona with kip winger|everything you do you re sexing me"
-  },
-  {
-    "id": "77612",
-    "playedAt": 1790737640000,
-    "artist": "Banshee",
-    "title": "Missing You",
-    "album": "Race Against Time",
-    "key": "banshee|missing you"
-  },
-  {
-    "id": "77616",
-    "playedAt": 1790737970000,
-    "artist": "Van Halen",
-    "title": "Can't Stop Lovin' You",
-    "album": "Balance",
-    "key": "van halen|can t stop lovin you"
-  },
-  {
-    "id": "77618",
-    "playedAt": 1790738212000,
-    "artist": "Stryper",
-    "title": "Always There For You",
-    "album": "In God We Trust",
-    "key": "stryper|always there for you"
-  },
-  {
-    "id": "77619",
-    "playedAt": 1790738444000,
-    "artist": "Pretty Maids",
-    "title": "Please Don't Leave Me",
-    "album": "Sin-Decade",
-    "key": "pretty maids|please don t leave me"
-  },
-  {
-    "id": "77623",
-    "playedAt": 1790738743000,
-    "artist": "Cinderella",
-    "title": "Don't Know What You Got (Till It's Gone)",
-    "album": "Long Cold Winter",
-    "key": "cinderella|don t know what you got till it s gone"
-  },
-  {
-    "id": "77626",
-    "playedAt": 1790739075000,
-    "artist": "McAuley Schenker Group",
-    "title": "Love Is Not A Game",
-    "album": "Perfect Timing",
-    "key": "mcauley schenker group|love is not a game"
-  },
-  {
-    "id": "77629",
-    "playedAt": 1790739316000,
-    "artist": "Def Leppard",
-    "title": "Promises",
-    "album": "Euphoria",
-    "key": "def leppard|promises"
-  },
-  {
-    "id": "77631",
-    "playedAt": 1790739543000,
-    "artist": "Hurricane",
-    "title": "Reign Of Love",
-    "album": "Slave To The Thrill (Reissue)",
-    "key": "hurricane|reign of love"
-  },
-  {
-    "id": "77635",
-    "playedAt": 1790739836000,
-    "artist": "Quiet Riot",
-    "title": "Metal Health (Bang Your Head)",
-    "album": "Metal Health",
-    "key": "quiet riot|metal health bang your head"
-  },
-  {
-    "id": "77638",
-    "playedAt": 1790740151000,
-    "artist": "White Lion",
-    "title": "Hungry",
-    "album": "Pride",
-    "key": "white lion|hungry"
-  },
-  {
-    "id": "77640",
-    "playedAt": 1790740385000,
-    "artist": "Slaughter",
-    "title": "You Are The One",
-    "album": "Stick It To Ya",
-    "key": "slaughter|you are the one"
-  },
-  {
-    "id": "77642",
-    "playedAt": 1790740608000,
-    "artist": "Pretty Boy Floyd",
-    "title": "I Wanna Be With You",
-    "album": "Leather Boyz With Electric Toyz",
-    "key": "pretty boy floyd|i wanna be with you"
-  },
-  {
-    "id": "77644",
-    "playedAt": 1790740822000,
-    "artist": "Motley Crue",
-    "title": "Dr. Feelgood",
-    "album": "Dr. Feelgood",
-    "key": "motley crue|dr feelgood"
-  },
-  {
-    "id": "77647",
-    "playedAt": 1790741094000,
-    "artist": "Poison",
-    "title": "Back To The Rocking Horse",
-    "album": "Open Up and Say...Ahh!",
-    "key": "poison|back to the rocking horse"
-  },
-  {
-    "id": "77649",
-    "playedAt": 1790741308000,
-    "artist": "Europe",
-    "title": "Prisoners In Paradise",
-    "album": "Prisoners in Paradise",
-    "key": "europe|prisoners in paradise"
-  },
-  {
-    "id": "77651",
-    "playedAt": 1790741570000,
-    "artist": "Winger",
-    "title": "Spell I'm Under",
-    "album": "Pull",
-    "key": "winger|spell i m under"
-  },
-  {
-    "id": "77655",
-    "playedAt": 1790741816000,
-    "artist": "Dokken",
-    "title": "The Hunter",
-    "album": "Under Lock and Key",
-    "key": "dokken|the hunter"
-  },
-  {
-    "id": "77657",
-    "playedAt": 1790742059000,
-    "artist": "L.A. Guns",
-    "title": "Sex Action",
-    "album": "L.A. Guns",
-    "key": "l a guns|sex action"
-  },
-  {
-    "id": "77658",
-    "playedAt": 1790742268000,
-    "artist": "Alice Cooper",
-    "title": "House Of Fire",
-    "album": "Trash",
-    "key": "alice cooper|house of fire"
-  },
-  {
-    "id": "77661",
-    "playedAt": 1790742488000,
-    "artist": "Great White",
-    "title": "House Of Broken Love",
-    "album": "…Twice Shy",
-    "key": "great white|house of broken love"
-  },
-  {
-    "id": "77664",
-    "playedAt": 1790742842000,
-    "artist": "Cinderella",
-    "title": "Shake Me",
-    "album": "Night Songs",
-    "key": "cinderella|shake me"
-  },
-  {
-    "id": "77667",
-    "playedAt": 1790743056000,
-    "artist": "Ratt",
-    "title": "What's It Gonna Be",
-    "album": "Reach For the Sky",
-    "key": "ratt|what s it gonna be"
-  },
-  {
-    "id": "77669",
-    "playedAt": 1790743290000,
-    "artist": "Lita Ford",
-    "title": "Can't Catch Me",
-    "album": "Lita",
-    "key": "lita ford|can t catch me"
-  },
-  {
-    "id": "77673",
-    "playedAt": 1790743542000,
-    "artist": "Def Leppard",
-    "title": "Foolin'",
-    "album": "Pyromania",
-    "key": "def leppard|foolin"
-  },
-  {
-    "id": "77675",
-    "playedAt": 1790743808000,
-    "artist": "Shotgun Messiah",
-    "title": "Heartbreak Blvd.",
-    "album": "Second Coming",
-    "key": "shotgun messiah|heartbreak blvd"
-  },
-  {
-    "id": "77677",
-    "playedAt": 1790744066000,
-    "artist": "Extreme",
-    "title": "Rest In Peace",
-    "album": "III Sides to Every Story",
-    "key": "extreme|rest in peace"
-  },
-  {
-    "id": "77680",
-    "playedAt": 1790744366000,
-    "artist": "Whitesnake",
-    "title": "Looking For Love",
-    "album": "Whitesnake",
-    "key": "whitesnake|looking for love"
-  },
-  {
-    "id": "77683",
-    "playedAt": 1790744742000,
-    "artist": "Ozzy Osbourne",
-    "title": "Shot In The Dark",
-    "album": "The Ultimate Sin",
-    "key": "ozzy osbourne|shot in the dark"
-  },
-  {
-    "id": "77688",
-    "playedAt": 1790744977000,
-    "artist": "Only Child",
-    "title": "Save A Place In Your Heart",
-    "album": "Only Child (Deluxe Version)",
-    "key": "only child|save a place in your heart"
-  },
-  {
-    "id": "77690",
-    "playedAt": 1790745222000,
-    "artist": "Vain",
-    "title": "Beat the Bullet",
-    "album": "No Respect",
-    "key": "vain|beat the bullet"
-  },
-  {
-    "id": "77691",
-    "playedAt": 1790745459000,
-    "artist": "Doro",
-    "title": "Rare Diamond",
-    "album": "Doro",
-    "key": "doro|rare diamond"
-  },
-  {
-    "id": "77694",
-    "playedAt": 1790745673000,
-    "artist": "Scorpions",
-    "title": "Rock You Like A Hurricane",
-    "album": "Love at First Sting",
-    "key": "scorpions|rock you like a hurricane"
-  },
-  {
-    "id": "77695",
-    "playedAt": 1790745922000,
-    "artist": "Bad English",
-    "title": "Forget Me Not",
-    "album": "Bad English",
-    "key": "bad english|forget me not"
-  },
-  {
-    "id": "77699",
-    "playedAt": 1790746205000,
-    "artist": "Krokus",
-    "title": "Now",
-    "album": "Change of Address",
-    "key": "krokus|now"
-  },
-  {
-    "id": "77700",
-    "playedAt": 1790746453000,
-    "artist": "Van Halen",
-    "title": "Love Walks In",
-    "album": "5150",
-    "key": "van halen|love walks in"
-  },
-  {
-    "id": "77703",
-    "playedAt": 1790746763000,
-    "artist": "L.A. Guns",
-    "title": "Never Enough",
-    "album": "Cocked & Loaded",
-    "key": "l a guns|never enough"
-  },
-  {
-    "id": "77705",
-    "playedAt": 1790747015000,
-    "artist": "Kix",
-    "title": "Girl Money",
-    "album": "Hot Wire",
-    "key": "kix|girl money"
-  },
-  {
-    "id": "77709",
-    "playedAt": 1790747277000,
-    "artist": "Queensryche",
-    "title": "Real World",
-    "album": "Last Action Hero Sountrack",
-    "key": "queensryche|real world"
-  },
-  {
     "id": "77711",
     "playedAt": 1790747533000,
     "artist": "Loudness",
@@ -19078,5 +18398,701 @@
     "title": "Livin' Without You",
     "album": "Young and Crazy",
     "key": "tigertailz|livin without you"
+  },
+  {
+    "id": "83780",
+    "playedAt": 1791330416000,
+    "artist": "Ratt",
+    "title": "I Want A Woman",
+    "album": "Reach For the Sky",
+    "key": "ratt|i want a woman"
+  },
+  {
+    "id": "83782",
+    "playedAt": 1791330635000,
+    "artist": "Cry Wolf",
+    "title": "West Wind Blows",
+    "album": "Cry Wolf",
+    "key": "cry wolf|west wind blows"
+  },
+  {
+    "id": "83785",
+    "playedAt": 1791330889000,
+    "artist": "Whitesnake",
+    "title": "Love Ain't No Stranger",
+    "album": "Slide It In",
+    "key": "whitesnake|love ain t no stranger"
+  },
+  {
+    "id": "83786",
+    "playedAt": 1791331135000,
+    "artist": "Skid Row",
+    "title": "Quicksand Jesus",
+    "album": "Slave To The Grind",
+    "key": "skid row|quicksand jesus"
+  },
+  {
+    "id": "83791",
+    "playedAt": 1791331457000,
+    "artist": "David Lee Roth",
+    "title": "Just Like Paradise",
+    "album": "Skyscraper",
+    "key": "david lee roth|just like paradise"
+  },
+  {
+    "id": "83793",
+    "playedAt": 1791331699000,
+    "artist": "McAuley Schenker Group",
+    "title": "This Is My Heart",
+    "album": "Save Yourself ",
+    "key": "mcauley schenker group|this is my heart"
+  },
+  {
+    "id": "83796",
+    "playedAt": 1791331978000,
+    "artist": "Keel",
+    "title": "Somebody's Waiting",
+    "album": "Keel",
+    "key": "keel|somebody s waiting"
+  },
+  {
+    "id": "83797",
+    "playedAt": 1791332166000,
+    "artist": "Babylon A.D.",
+    "title": "So Savage The Heart",
+    "album": "Nothing Sacred",
+    "key": "babylon a d|so savage the heart"
+  },
+  {
+    "id": "83800",
+    "playedAt": 1791332482000,
+    "artist": "Twisted Sister",
+    "title": "Hot Love",
+    "album": "Love Is for Suckers",
+    "key": "twisted sister|hot love"
+  },
+  {
+    "id": "83803",
+    "playedAt": 1791332690000,
+    "artist": "Vince Neil",
+    "title": "Sister Of Pain",
+    "album": "Exposed",
+    "key": "vince neil|sister of pain"
+  },
+  {
+    "id": "83805",
+    "playedAt": 1791332978000,
+    "artist": "Van Halen",
+    "title": "Drop Dead Legs",
+    "album": "1984 (Remastered)",
+    "key": "van halen|drop dead legs"
+  },
+  {
+    "id": "83807",
+    "playedAt": 1791333220000,
+    "artist": "Great White",
+    "title": "The Angel Song",
+    "album": "…Twice Shy",
+    "key": "great white|the angel song"
+  },
+  {
+    "id": "83811",
+    "playedAt": 1791333511000,
+    "artist": "White Lion",
+    "title": "Little Fighter",
+    "album": "Big Game",
+    "key": "white lion|little fighter"
+  },
+  {
+    "id": "83813",
+    "playedAt": 1791333770000,
+    "artist": "Vinnie Vincent Invasion",
+    "title": "No Substitute",
+    "album": "Vinnie Vincent Invasion",
+    "key": "vinnie vincent invasion|no substitute"
+  },
+  {
+    "id": "83816",
+    "playedAt": 1791333994000,
+    "artist": "Lynch Mob",
+    "title": "Tangled In The Web",
+    "album": "Lynch Mob",
+    "key": "lynch mob|tangled in the web"
+  },
+  {
+    "id": "83820",
+    "playedAt": 1791334279000,
+    "artist": "Stryper",
+    "title": "Calling On You",
+    "album": "To Hell With The Devil",
+    "key": "stryper|calling on you"
+  },
+  {
+    "id": "83822",
+    "playedAt": 1791334514000,
+    "artist": "W.A.S.P.",
+    "title": "I Wanna Be Somebody",
+    "album": "W.A.S.P.",
+    "key": "w a s p|i wanna be somebody"
+  },
+  {
+    "id": "83824",
+    "playedAt": 1791334727000,
+    "artist": "Bon Jovi",
+    "title": "Get Ready",
+    "album": "Bon Jovi",
+    "key": "bon jovi|get ready"
+  },
+  {
+    "id": "83827",
+    "playedAt": 1791334972000,
+    "artist": "Black 'N Blue",
+    "title": "Miss Mystery",
+    "album": "Without Love",
+    "key": "black n blue|miss mystery"
+  },
+  {
+    "id": "83829",
+    "playedAt": 1791335199000,
+    "artist": "Cinderella",
+    "title": "Somebody Save Me",
+    "album": "Night Songs",
+    "key": "cinderella|somebody save me"
+  },
+  {
+    "id": "83831",
+    "playedAt": 1791335391000,
+    "artist": "Motley Crue",
+    "title": "Rattlesnake Shake",
+    "album": "Dr. Feelgood",
+    "key": "motley crue|rattlesnake shake"
+  },
+  {
+    "id": "83833",
+    "playedAt": 1791335610000,
+    "artist": "Aerosmith",
+    "title": "Janie's Got A Gun",
+    "album": "Pump",
+    "key": "aerosmith|janie s got a gun"
+  },
+  {
+    "id": "83835",
+    "playedAt": 1791335921000,
+    "artist": "McQueen Street",
+    "title": "In Heaven",
+    "album": "McQueen Street",
+    "key": "mcqueen street|in heaven"
+  },
+  {
+    "id": "83839",
+    "playedAt": 1791336205000,
+    "artist": "Night Ranger",
+    "title": "When You Close Your Eyes",
+    "album": "Midnight Madness",
+    "key": "night ranger|when you close your eyes"
+  },
+  {
+    "id": "83842",
+    "playedAt": 1791336447000,
+    "artist": "Van Halen",
+    "title": "Runaround",
+    "album": "For Unlawful Carnal Knowledge",
+    "key": "van halen|runaround"
+  },
+  {
+    "id": "83843",
+    "playedAt": 1791336695000,
+    "artist": "Lita Ford",
+    "title": "Larger Than Life",
+    "album": "Dangerous Curves",
+    "key": "lita ford|larger than life"
+  },
+  {
+    "id": "83846",
+    "playedAt": 1791336925000,
+    "artist": "Whitesnake",
+    "title": "The Deeper The Love",
+    "album": "Slip of the Tongue",
+    "key": "whitesnake|the deeper the love"
+  },
+  {
+    "id": "83849",
+    "playedAt": 1791337178000,
+    "artist": "Quiet Riot",
+    "title": "Cum On Feel The Noize",
+    "album": "Metal Health",
+    "key": "quiet riot|cum on feel the noize"
+  },
+  {
+    "id": "83851",
+    "playedAt": 1791337454000,
+    "artist": "Vixen",
+    "title": "How Much Love",
+    "album": "Rev It Up",
+    "key": "vixen|how much love"
+  },
+  {
+    "id": "83855",
+    "playedAt": 1791337717000,
+    "artist": "Def Leppard",
+    "title": "Take What You Want",
+    "album": "Diamond Star Halos",
+    "key": "def leppard|take what you want"
+  },
+  {
+    "id": "83859",
+    "playedAt": 1791337970000,
+    "artist": "VAMP",
+    "title": "Heartbreak, Heartache",
+    "album": "The Rich Don't Rock",
+    "key": "vamp|heartbreak heartache"
+  },
+  {
+    "id": "83862",
+    "playedAt": 1791338231000,
+    "artist": "Dokken",
+    "title": "Just Got Lucky",
+    "album": "Tooth and Nail",
+    "key": "dokken|just got lucky"
+  },
+  {
+    "id": "83865",
+    "playedAt": 1791338503000,
+    "artist": "Honeymoon Suite",
+    "title": "New Girl Now",
+    "album": "Honeymoon Suite",
+    "key": "honeymoon suite|new girl now"
+  },
+  {
+    "id": "83867",
+    "playedAt": 1791338713000,
+    "artist": "Dirty Blonde",
+    "title": "Passion",
+    "album": "Passion",
+    "key": "dirty blonde|passion"
+  },
+  {
+    "id": "83869",
+    "playedAt": 1791338958000,
+    "artist": "Van Halen",
+    "title": "Feels So Good",
+    "album": "OU812",
+    "key": "van halen|feels so good"
+  },
+  {
+    "id": "83871",
+    "playedAt": 1791339218000,
+    "artist": "Tyketto",
+    "title": "Forever Young",
+    "album": "Don't Come Easy",
+    "key": "tyketto|forever young"
+  },
+  {
+    "id": "83874",
+    "playedAt": 1791339516000,
+    "artist": "Saraya",
+    "title": "Healing Touch",
+    "album": "Saraya",
+    "key": "saraya|healing touch"
+  },
+  {
+    "id": "83876",
+    "playedAt": 1791339774000,
+    "artist": "Bon Jovi",
+    "title": "The Hardest Part Is The Night",
+    "album": "7800° Fahrenheit",
+    "key": "bon jovi|the hardest part is the night"
+  },
+  {
+    "id": "83877",
+    "playedAt": 1791340019000,
+    "artist": "Cheap Trick",
+    "title": "The Flame",
+    "album": "Lap of Luxury",
+    "key": "cheap trick|the flame"
+  },
+  {
+    "id": "83882",
+    "playedAt": 1791340308000,
+    "artist": "Ratt",
+    "title": "Lay It Down",
+    "album": "Invasion of Your Privacy",
+    "key": "ratt|lay it down"
+  },
+  {
+    "id": "83885",
+    "playedAt": 1791340499000,
+    "artist": "Kix",
+    "title": "She Dropped Me The Bomb",
+    "album": "Blow My Fuse",
+    "key": "kix|she dropped me the bomb"
+  },
+  {
+    "id": "83887",
+    "playedAt": 1791340726000,
+    "artist": "Sleeze Beez",
+    "title": "Stranger Than Paradise",
+    "album": "Screwed Blued & Tattooed",
+    "key": "sleeze beez|stranger than paradise"
+  },
+  {
+    "id": "83889",
+    "playedAt": 1791340956000,
+    "artist": "Motley Crue",
+    "title": "Home Sweet Home",
+    "album": "Theatre of Pain",
+    "key": "motley crue|home sweet home"
+  },
+  {
+    "id": "83893",
+    "playedAt": 1791341190000,
+    "artist": "Def Leppard",
+    "title": "Rocket",
+    "album": "Hysteria",
+    "key": "def leppard|rocket"
+  },
+  {
+    "id": "83894",
+    "playedAt": 1791341430000,
+    "artist": "Dirty Looks",
+    "title": "Can't Take My Eyes Off Of You",
+    "album": "Cool From The Wire",
+    "key": "dirty looks|can t take my eyes off of you"
+  },
+  {
+    "id": "83896",
+    "playedAt": 1791341605000,
+    "artist": "Giant",
+    "title": "Stay",
+    "album": "Time To Burn",
+    "key": "giant|stay"
+  },
+  {
+    "id": "83899",
+    "playedAt": 1791341877000,
+    "artist": "Scorpions",
+    "title": "Big City Nights",
+    "album": "Love at First Sting",
+    "key": "scorpions|big city nights"
+  },
+  {
+    "id": "83902",
+    "playedAt": 1791342112000,
+    "artist": "Great White",
+    "title": "Rollin' Stoned",
+    "album": "Can't Get There From Here",
+    "key": "great white|rollin stoned"
+  },
+  {
+    "id": "83904",
+    "playedAt": 1791342357000,
+    "artist": "Voodoo X",
+    "title": "A Lover Like You",
+    "album": "Vol. 1 - The Awakening",
+    "key": "voodoo x|a lover like you"
+  },
+  {
+    "id": "83906",
+    "playedAt": 1791342622000,
+    "artist": "Warrant",
+    "title": "Blind Faith",
+    "album": "Cherry Pie",
+    "key": "warrant|blind faith"
+  },
+  {
+    "id": "83913",
+    "playedAt": 1791342952000,
+    "artist": "Bon Jovi",
+    "title": "She Don't Know Me",
+    "album": "Bon Jovi",
+    "key": "bon jovi|she don t know me"
+  },
+  {
+    "id": "83914",
+    "playedAt": 1791343183000,
+    "artist": "Black 'N Blue",
+    "title": "Nature Of The Beach",
+    "album": "Without Love",
+    "key": "black n blue|nature of the beach"
+  },
+  {
+    "id": "83917",
+    "playedAt": 1791343398000,
+    "artist": "W.A.S.P.",
+    "title": "Wild Child",
+    "album": "The Last Command",
+    "key": "w a s p|wild child"
+  },
+  {
+    "id": "83919",
+    "playedAt": 1791343693000,
+    "artist": "McAuley Schenker Group",
+    "title": "Time",
+    "album": "Perfect Timing",
+    "key": "mcauley schenker group|time"
+  },
+  {
+    "id": "83922",
+    "playedAt": 1791343933000,
+    "artist": "Winger",
+    "title": "Hungry",
+    "album": "Winger",
+    "key": "winger|hungry"
+  },
+  {
+    "id": "83925",
+    "playedAt": 1791344171000,
+    "artist": "Faster Pussycat",
+    "title": "Don't Change That Song",
+    "album": "Faster Pussycat",
+    "key": "faster pussycat|don t change that song"
+  },
+  {
+    "id": "83927",
+    "playedAt": 1791344378000,
+    "artist": "Steelheart",
+    "title": "Sticky Side Up",
+    "album": "Tangled In Reins",
+    "key": "steelheart|sticky side up"
+  },
+  {
+    "id": "83930",
+    "playedAt": 1791344639000,
+    "artist": "Slaughter",
+    "title": "Fly To The Angels",
+    "album": "Stick It To Ya",
+    "key": "slaughter|fly to the angels"
+  },
+  {
+    "id": "83934",
+    "playedAt": 1791344945000,
+    "artist": "Europe",
+    "title": "The Final Countdown",
+    "album": "The Final Countdown",
+    "key": "europe|the final countdown"
+  },
+  {
+    "id": "83936",
+    "playedAt": 1791345181000,
+    "artist": "Van Halen",
+    "title": "Dance The Night Away",
+    "album": "Van Halen II",
+    "key": "van halen|dance the night away"
+  },
+  {
+    "id": "83938",
+    "playedAt": 1791345368000,
+    "artist": "L.A. Guns",
+    "title": "The Ballad of Jayne [Live]",
+    "album": "Cocked & Loaded Live",
+    "key": "l a guns|the ballad of jayne"
+  },
+  {
+    "id": "83940",
+    "playedAt": 1791345672000,
+    "artist": "Triumph",
+    "title": "Follow Your Heart",
+    "album": "Thunder Seven",
+    "key": "triumph|follow your heart"
+  },
+  {
+    "id": "83944",
+    "playedAt": 1791345893000,
+    "artist": "Warrant",
+    "title": "Down Boys",
+    "album": "Dirty Rotten Filthy Stinking Rich",
+    "key": "warrant|down boys"
+  },
+  {
+    "id": "83946",
+    "playedAt": 1791346115000,
+    "artist": "Babylon A.D.",
+    "title": "Bang Go The Bells",
+    "album": "Babylon A.D.",
+    "key": "babylon a d|bang go the bells"
+  },
+  {
+    "id": "83948",
+    "playedAt": 1791346364000,
+    "artist": "Ratt",
+    "title": "The Morning After",
+    "album": "Out of the Cellar",
+    "key": "ratt|the morning after"
+  },
+  {
+    "id": "83951",
+    "playedAt": 1791346561000,
+    "artist": "Bad English",
+    "title": "When I See You Smile",
+    "album": "Bad English",
+    "key": "bad english|when i see you smile"
+  },
+  {
+    "id": "83953",
+    "playedAt": 1791346816000,
+    "artist": "Danger Danger",
+    "title": "Bang Bang",
+    "album": "Danger Danger",
+    "key": "danger danger|bang bang"
+  },
+  {
+    "id": "83955",
+    "playedAt": 1791347040000,
+    "artist": "Kix",
+    "title": "Cold Shower",
+    "album": "Midnite Dynamite",
+    "key": "kix|cold shower"
+  },
+  {
+    "id": "83959",
+    "playedAt": 1791347331000,
+    "artist": "Bon Jovi",
+    "title": "Edge Of A Broken Heart",
+    "album": "Disorderlies Soundtrack",
+    "key": "bon jovi|edge of a broken heart"
+  },
+  {
+    "id": "83960",
+    "playedAt": 1791347598000,
+    "artist": "Dan Reed Network",
+    "title": "Lover",
+    "album": "Slam",
+    "key": "dan reed network|lover"
+  },
+  {
+    "id": "83964",
+    "playedAt": 1791347881000,
+    "artist": "Alice Cooper",
+    "title": "Poison",
+    "album": "Trash",
+    "key": "alice cooper|poison"
+  },
+  {
+    "id": "83966",
+    "playedAt": 1791348135000,
+    "artist": "Cinderella",
+    "title": "The More Things Change",
+    "album": "Heartbreak Station",
+    "key": "cinderella|the more things change"
+  },
+  {
+    "id": "83969",
+    "playedAt": 1791348381000,
+    "artist": "Heavens Edge",
+    "title": "Skin To Skin",
+    "album": "Heaven's Edge",
+    "key": "heavens edge|skin to skin"
+  },
+  {
+    "id": "83971",
+    "playedAt": 1791348580000,
+    "artist": "Skid Row",
+    "title": "Wasted Time",
+    "album": "Slave To the Grind",
+    "key": "skid row|wasted time"
+  },
+  {
+    "id": "83974",
+    "playedAt": 1791348928000,
+    "artist": "Scorpions",
+    "title": "Tease Me Please Me",
+    "album": "Crazy World",
+    "key": "scorpions|tease me please me"
+  },
+  {
+    "id": "83978",
+    "playedAt": 1791349199000,
+    "artist": "Sea Hags",
+    "title": "Half The Way Valley",
+    "album": "Sea Hags",
+    "key": "sea hags|half the way valley"
+  },
+  {
+    "id": "83979",
+    "playedAt": 1791349374000,
+    "artist": "Hanoi Rocks",
+    "title": "Boulevard Of Broken Dreams",
+    "album": "Two Steps From the Move",
+    "key": "hanoi rocks|boulevard of broken dreams"
+  },
+  {
+    "id": "83982",
+    "playedAt": 1791349623000,
+    "artist": "White Lion",
+    "title": "Wait",
+    "album": "Pride",
+    "key": "white lion|wait"
+  },
+  {
+    "id": "83986",
+    "playedAt": 1791349860000,
+    "artist": "Ratt",
+    "title": "Shame Shame Shame",
+    "album": "Detonator",
+    "key": "ratt|shame shame shame"
+  },
+  {
+    "id": "83988",
+    "playedAt": 1791350186000,
+    "artist": "China",
+    "title": "In The Middle Of The Night",
+    "album": "Sign in the Sky",
+    "key": "china|in the middle of the night"
+  },
+  {
+    "id": "83989",
+    "playedAt": 1791350434000,
+    "artist": "Def Leppard",
+    "title": "When Love And Hate Collide",
+    "album": "Vault: Def Leppard Greatest Hits (1980–1995)",
+    "key": "def leppard|when love and hate collide"
+  },
+  {
+    "id": "83993",
+    "playedAt": 1791350680000,
+    "artist": "Bon Jovi",
+    "title": "Lay Your Hands On Me",
+    "album": "New Jersey",
+    "key": "bon jovi|lay your hands on me"
+  },
+  {
+    "id": "83997",
+    "playedAt": 1791351031000,
+    "artist": "Shy",
+    "title": "Give It All You Got",
+    "album": "Misspent Youth",
+    "key": "shy|give it all you got"
+  },
+  {
+    "id": "83999",
+    "playedAt": 1791351341000,
+    "artist": "Firehouse",
+    "title": "Hold Your Fire",
+    "album": "Hold Your Fire",
+    "key": "firehouse|hold your fire"
+  },
+  {
+    "id": "84004",
+    "playedAt": 1791351568000,
+    "artist": "Nitro",
+    "title": "Long Way From Home",
+    "album": "O.F.R.",
+    "key": "nitro|long way from home"
+  },
+  {
+    "id": "84007",
+    "playedAt": 1791351910000,
+    "artist": "Winger",
+    "title": "Easy Come Easy Go",
+    "album": "In the Heart of the Young",
+    "key": "winger|easy come easy go"
+  },
+  {
+    "id": "84009",
+    "playedAt": 1791352136000,
+    "artist": "McAuley Schenker Group",
+    "title": "Save Yourself",
+    "album": "Save Yourself",
+    "key": "mcauley schenker group|save yourself"
   }
 ]
